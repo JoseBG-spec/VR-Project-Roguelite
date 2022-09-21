@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e491b55c0f2f28ab07a9e25d453e03, type: 3}
+  m_Name: TileMapSet
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.19.1
+  openTileset:
+    elements:
+    - id: d895a311-5ab0-4a62-82e0-d17aba1f81d1
+      name: Floor
+      tiles:
+      - tile: {fileID: 11400000, guid: 7aba28f944964194ba233d04f1d98b17, type: 2}
+    - id: 92546b46-3ade-4f7b-a2f6-c52b07e283bd
+      name: Walls
+      tiles:
+      - tile: {fileID: 11400000, guid: fac448f81205d334ba69ca0ad9547495, type: 2}
+    orderedIds:
+    - d895a311-5ab0-4a62-82e0-d17aba1f81d1
+    - 92546b46-3ade-4f7b-a2f6-c52b07e283bd
+  tileTypes: []
