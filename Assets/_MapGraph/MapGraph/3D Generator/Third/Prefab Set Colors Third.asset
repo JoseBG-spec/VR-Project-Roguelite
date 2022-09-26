@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Prefab Set Colors Third
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.19.1
+  namedColorDataSet:
+    elements:
+    - id: b31acf94-cf75-4ec6-bc6b-d79a841c478b
+      name: Floor
+      color:
+        serializedVersion: 2
+        rgba: 4282466625
+    - id: c573e74e-bae3-4b05-9215-a5c54c1088f7
+      name: Walls
+      color:
+        serializedVersion: 2
+        rgba: 4293540159
+    - id: 8c9f8539-e7fc-44a4-ad4c-9532e6bc5dc9
+      name: Ceiling
+      color:
+        serializedVersion: 2
+        rgba: 4294901983
+    - id: 2c2d0b59-c31e-4039-af7c-9ad5d23fd4b0
+      name: Enemies
+      color:
+        serializedVersion: 2
+        rgba: 4278252031
+    - id: fab0a83a-a82b-46ad-8fa2-f83332beee9d
+      name: Props
+      color:
+        serializedVersion: 2
+        rgba: 4288873541
+    - id: 63fe2134-ae8f-404b-992f-2e31a5568190
+      name: Upper Props
+      color:
+        serializedVersion: 2
+        rgba: 4291861582
+    - id: 219f8231-5c13-4e83-ac06-694612f0dfc9
+      name: Chests
+      color:
+        serializedVersion: 2
+        rgba: 4278196735
+    - id: a3f2e19e-a62d-46e6-8813-a5170006f7c8
+      name: Floor Border
+      color:
+        serializedVersion: 2
+        rgba: 4281758127
+    orderedIds:
+    - b31acf94-cf75-4ec6-bc6b-d79a841c478b
+    - c573e74e-bae3-4b05-9215-a5c54c1088f7
+    - 8c9f8539-e7fc-44a4-ad4c-9532e6bc5dc9
+    - 2c2d0b59-c31e-4039-af7c-9ad5d23fd4b0
+    - fab0a83a-a82b-46ad-8fa2-f83332beee9d
+    - 63fe2134-ae8f-404b-992f-2e31a5568190
+    - 219f8231-5c13-4e83-ac06-694612f0dfc9
+    - a3f2e19e-a62d-46e6-8813-a5170006f7c8
+  serializedNames: []
+  serializedColors: []
+  serializedLinkedSets:
+  - {fileID: 11400000, guid: b4729dd138c09984e8e93584c274a610, type: 2}
