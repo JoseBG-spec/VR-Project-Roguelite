@@ -179,6 +179,17 @@ MonoBehaviour:
   - rid: 7677084366919172349
   - rid: 7677084370181292042
   - rid: 7677084370181292051
+  - rid: 6461568784486629376
+  - rid: 6461568784486629392
+  - rid: 6461568784486629396
+  - rid: 6461568784486629406
+  - rid: 6461568784486629407
+  - rid: 6461568784486629408
+  - rid: 6461568784486629409
+  - rid: 6461568784486629426
+  - rid: 6461568784486629434
+  - rid: 6461568784486629440
+  - rid: 6461568784486629450
   consumerNodes:
   - rid: 7677084342182478515
   - rid: 7677084342182478516
@@ -264,6 +275,12 @@ MonoBehaviour:
   - rid: 7677084366919172333
   - rid: 7677084370181292042
   - rid: 7677084370181292051
+  - rid: 6461568784486629376
+  - rid: 6461568784486629408
+  - rid: 6461568784486629409
+  - rid: 6461568784486629426
+  - rid: 6461568784486629434
+  - rid: 6461568784486629440
   processorNodes:
   - rid: 7677084342182478515
   - rid: 7677084342182478516
@@ -349,6 +366,12 @@ MonoBehaviour:
   - rid: 7677084366919172333
   - rid: 7677084370181292042
   - rid: 7677084370181292051
+  - rid: 6461568784486629376
+  - rid: 6461568784486629408
+  - rid: 6461568784486629409
+  - rid: 6461568784486629426
+  - rid: 6461568784486629434
+  - rid: 6461568784486629440
   inputNodes:
   - rid: 7677084347958297079
   - rid: 7677084347958297081
@@ -414,7 +437,6 @@ MonoBehaviour:
   - rid: 7677084347958296628
   - rid: 7677084347958296788
   - rid: 7677084347958296931
-  - rid: 7677084347958296998
   - rid: 7677084347958297214
   - rid: 7677084347958297343
   - rid: 7677084347958297344
@@ -441,8 +463,11 @@ MonoBehaviour:
   - rid: 7677084366919172310
   - rid: 7677084370181292050
   - rid: 7677084370181292059
+  - rid: 6461568784486629391
+  - rid: 6461568784486629433
+  - rid: 6461568784486629448
+  - rid: 6461568784486629449
   referenceNodes:
-  - rid: 7677084342182478845
   - rid: 7677084347958296593
   - rid: 7677084347958296781
   - rid: 7677084347958296930
@@ -465,6 +490,9 @@ MonoBehaviour:
   - rid: 7677084366919172307
   - rid: 7677084366919172309
   - rid: 7677084370181292058
+  - rid: 6461568784486629388
+  - rid: 6461568784486629432
+  - rid: 6461568784486629447
   groupNodes:
   - rid: 7677084347958296698
   - rid: 7677084347958296699
@@ -482,6 +510,843 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
+    - rid: 6461568784486629376
+      type: {class: RandomlyFillTextureNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 3991.3333
+          y: 1241.3333
+          width: 224.00024
+          height: 398.66675
+        note: 
+        id: 8e4c1a66-b101-4b19-9564-c74aa508111b
+        providerNode:
+          rid: 6461568784486629377
+        consumerNode:
+          rid: 6461568784486629378
+        textureIn:
+          rid: 6461568784486629379
+        maskIn:
+          rid: 6461568784486629380
+        fillPercentageIn:
+          rid: 6461568784486629381
+        fillColorIn:
+          rid: 6461568784486629382
+        minPlacementsIn:
+          rid: 6461568784486629383
+        maxPlacementsIn:
+          rid: 6461568784486629384
+        textureOut:
+          rid: 6461568784486629385
+        maskOut:
+          rid: 6461568784486629386
+        placementsOut:
+          rid: 6461568784486629387
+    - rid: 6461568784486629377
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: bcff9ee9-10ce-41f5-8fb2-28596c03344b
+        outPorts:
+        - rid: 6461568784486629385
+        - rid: 6461568784486629386
+        - rid: 6461568784486629387
+    - rid: 6461568784486629378
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: c0fe7b12-7aef-4b8e-8cbc-bf1a19fc40ab
+        inPorts:
+        - rid: 6461568784486629379
+        - rid: 6461568784486629380
+        - rid: 6461568784486629381
+        - rid: 6461568784486629382
+        - rid: 6461568784486629383
+        - rid: 6461568784486629384
+    - rid: 6461568784486629379
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629376
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478676
+        isConnectionRequired: 1
+    - rid: 6461568784486629380
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 6461568784486629376
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478696
+        isConnectionRequired: 0
+    - rid: 6461568784486629381
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Fill Percentage
+        owner:
+          rid: 6461568784486629376
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 6461568784486629393
+        isConnectionRequired: 0
+    - rid: 6461568784486629382
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 6461568784486629376
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629451
+        isConnectionRequired: 0
+    - rid: 6461568784486629383
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Min. placements
+        owner:
+          rid: 6461568784486629376
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 6461568784486629397
+        isConnectionRequired: 0
+    - rid: 6461568784486629384
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Max. placements
+        owner:
+          rid: 6461568784486629376
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 6461568784486629397
+        isConnectionRequired: 0
+    - rid: 6461568784486629385
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629376
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629420
+        - rid: 6461568784486629444
+    - rid: 6461568784486629386
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 6461568784486629376
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 6461568784486629387
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Placements
+        owner:
+          rid: 6461568784486629376
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629421
+    - rid: 6461568784486629388
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 3570.6667
+          y: 1280.6666
+          width: 209.33325
+          height: 278.66663
+        providerNode:
+          rid: 7677084342182478670
+    - rid: 6461568784486629391
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 6461568784486629379
+        outPort:
+          rid: 7677084342182478676
+        referenceNode:
+          rid: 6461568784486629388
+    - rid: 6461568784486629392
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 3877.3333
+          y: 1335.3333
+          width: 78
+          height: 42.666748
+        note: 
+        id: 8366fcb3-b537-4bb5-9ff9-405ef43854be
+        outPorts:
+        - rid: 6461568784486629393
+        constTypeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 100
+        serializedObj: {fileID: 0}
+    - rid: 6461568784486629393
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 6461568784486629392
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 6461568784486629381
+    - rid: 6461568784486629396
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 3902.6667
+          y: 1438.6666
+          width: 69.33325
+          height: 42.666626
+        note: 
+        id: 539f720f-8433-46b1-a041-ce0f5098dc59
+        outPorts:
+        - rid: 6461568784486629397
+        constTypeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 1
+        serializedObj: {fileID: 0}
+    - rid: 6461568784486629397
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 6461568784486629396
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 6461568784486629383
+        - rid: 6461568784486629384
+    - rid: 6461568784486629406
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4175.3335
+          y: 1519.3333
+          width: 99.33301
+          height: 42.666748
+        note: 
+        id: 9f2a9009-cdd2-49b0-9156-3726d49ff0da
+        outPorts:
+        - rid: 6461568784486629410
+        constTypeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedVal: '{"r":22,"g":255,"b":0,"a":255}'
+        serializedObj: {fileID: 0}
+    - rid: 6461568784486629407
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4206.6665
+          y: 1440
+          width: 69.333496
+          height: 42.666626
+        note: 
+        id: 0b95397e-9622-45b9-ab0c-e7871ae398ed
+        outPorts:
+        - rid: 6461568784486629411
+        constTypeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 2
+        serializedObj: {fileID: 0}
+    - rid: 6461568784486629408
+      type: {class: ExtractColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4537.3335
+          y: 1317.3333
+          width: 209.33301
+          height: 302.66675
+        note: 
+        id: ba5d3e78-e1d1-4677-be7f-52e5be41e4a0
+        providerNode:
+          rid: 6461568784486629412
+        consumerNode:
+          rid: 6461568784486629413
+        textureIn:
+          rid: 6461568784486629414
+        colorToExtractIn:
+          rid: 6461568784486629415
+        textureOut:
+          rid: 6461568784486629416
+        maskOut:
+          rid: 6461568784486629417
+    - rid: 6461568784486629409
+      type: {class: DrawCirclesNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4306
+          y: 1274.6666
+          width: 209.3335
+          height: 350.66663
+        note: 
+        id: c341b993-0f5d-4e41-b0a6-1da6139bf774
+        providerNode:
+          rid: 6461568784486629418
+        consumerNode:
+          rid: 6461568784486629419
+        textureIn:
+          rid: 6461568784486629420
+        centersIn:
+          rid: 6461568784486629421
+        radiusIn:
+          rid: 6461568784486629422
+        drawColorIn:
+          rid: 6461568784486629423
+        textureOut:
+          rid: 6461568784486629424
+    - rid: 6461568784486629410
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 6461568784486629406
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629423
+        - rid: 6461568784486629415
+    - rid: 6461568784486629411
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 6461568784486629407
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 6461568784486629422
+    - rid: 6461568784486629412
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 31e5c755-9289-4e8d-a46a-f83b1a91ea10
+        outPorts:
+        - rid: 6461568784486629416
+        - rid: 6461568784486629417
+    - rid: 6461568784486629413
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: bfdfada4-91a4-4a3a-b515-1bd2b5438b96
+        inPorts:
+        - rid: 6461568784486629414
+        - rid: 6461568784486629415
+    - rid: 6461568784486629414
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629408
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629424
+        isConnectionRequired: 1
+    - rid: 6461568784486629415
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Color To Extract
+        owner:
+          rid: 6461568784486629408
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629410
+        isConnectionRequired: 0
+    - rid: 6461568784486629416
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629408
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629429
+    - rid: 6461568784486629417
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 6461568784486629408
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 6461568784486629418
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: cf3704c4-45f0-4f4d-8320-17902a4d841d
+        outPorts:
+        - rid: 6461568784486629424
+    - rid: 6461568784486629419
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 4dc5d422-a7dd-4b65-9f03-499212f53b37
+        inPorts:
+        - rid: 6461568784486629420
+        - rid: 6461568784486629421
+        - rid: 6461568784486629422
+        - rid: 6461568784486629423
+    - rid: 6461568784486629420
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629409
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629385
+        isConnectionRequired: 1
+    - rid: 6461568784486629421
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Center Points
+        owner:
+          rid: 6461568784486629409
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629387
+        isConnectionRequired: 1
+    - rid: 6461568784486629422
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Radius
+        owner:
+          rid: 6461568784486629409
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 6461568784486629411
+        isConnectionRequired: 1
+    - rid: 6461568784486629423
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 6461568784486629409
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629410
+        isConnectionRequired: 0
+    - rid: 6461568784486629424
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629409
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629414
+    - rid: 6461568784486629426
+      type: {class: TextureToMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4777.3335
+          y: 1317.3333
+          width: 209.33301
+          height: 302.66675
+        note: 
+        id: 2be40117-613e-45ed-941b-9029ccdeb116
+        providerNode:
+          rid: 6461568784486629427
+        consumerNode:
+          rid: 6461568784486629428
+        textureIn:
+          rid: 6461568784486629429
+        inverseIn:
+          rid: 6461568784486629430
+        maskOut:
+          rid: 6461568784486629431
+    - rid: 6461568784486629427
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: e0ff5aff-3acf-4330-94bd-6adc083c58e2
+        outPorts:
+        - rid: 6461568784486629431
+    - rid: 6461568784486629428
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: e1680cc0-ca9b-457f-9031-caf7b92359f9
+        inPorts:
+        - rid: 6461568784486629429
+        - rid: 6461568784486629430
+    - rid: 6461568784486629429
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629426
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629416
+        isConnectionRequired: 1
+    - rid: 6461568784486629430
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Inverse?
+        owner:
+          rid: 6461568784486629426
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 6461568784486629431
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 6461568784486629426
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629438
+    - rid: 6461568784486629432
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 5066
+          y: 1023.3333
+          width: 209.3335
+          height: 278.66675
+        providerNode:
+          rid: 7677084342182478670
+    - rid: 6461568784486629433
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084342182478749
+        outPort:
+          rid: 7677084342182478676
+        referenceNode:
+          rid: 6461568784486629432
+    - rid: 6461568784486629434
+      type: {class: MergeMasksNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5078.6665
+          y: 895.3334
+          width: 184.66699
+          height: 102.666626
+        note: 
+        id: 9940816b-da9e-4648-98b5-928e31c8ea1d
+        providerNode:
+          rid: 6461568784486629435
+        consumerNode:
+          rid: 6461568784486629436
+        maskAIn:
+          rid: 6461568784486629437
+        maskBIn:
+          rid: 6461568784486629438
+        maskOut:
+          rid: 6461568784486629439
+    - rid: 6461568784486629435
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: cc1254db-b802-41f5-97e4-ea588d979ec2
+        outPorts:
+        - rid: 6461568784486629439
+    - rid: 6461568784486629436
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 3db05bb1-317d-451d-9e80-7639058994cf
+        inPorts:
+        - rid: 6461568784486629437
+        - rid: 6461568784486629438
+    - rid: 6461568784486629437
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask A
+        owner:
+          rid: 6461568784486629434
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478696
+        isConnectionRequired: 1
+    - rid: 6461568784486629438
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask B
+        owner:
+          rid: 6461568784486629434
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629431
+        isConnectionRequired: 1
+    - rid: 6461568784486629439
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Merged Mask
+        owner:
+          rid: 6461568784486629434
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084342182478750
+        - rid: 7677084342182478791
+    - rid: 6461568784486629440
+      type: {class: StampNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 6812.6665
+          y: 1280.6666
+          width: 209.3335
+          height: 326.66663
+        note: 
+        id: c45c6db9-0d76-450b-b38d-05fb546a8a16
+        providerNode:
+          rid: 6461568784486629441
+        consumerNode:
+          rid: 6461568784486629442
+        textureIn:
+          rid: 6461568784486629443
+        stampIn:
+          rid: 6461568784486629444
+        offsetIn:
+          rid: 6461568784486629445
+        textureOut:
+          rid: 6461568784486629446
+    - rid: 6461568784486629441
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: d5a36b68-aaee-4287-8f9c-7d0c116557d4
+        outPorts:
+        - rid: 6461568784486629446
+    - rid: 6461568784486629442
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: a23a5b54-51cd-41a2-9a20-c20aab25caa0
+        inPorts:
+        - rid: 6461568784486629443
+        - rid: 6461568784486629444
+        - rid: 6461568784486629445
+    - rid: 6461568784486629443
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629440
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478755
+        isConnectionRequired: 1
+    - rid: 6461568784486629444
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Stamp
+        owner:
+          rid: 6461568784486629440
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 6461568784486629385
+        isConnectionRequired: 1
+    - rid: 6461568784486629445
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Offset
+        owner:
+          rid: 6461568784486629440
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 6461568784486629446
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 6461568784486629440
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084342182478824
+    - rid: 6461568784486629447
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 6584.6665
+          y: 1674.6666
+          width: 210
+          height: 326.66663
+        providerNode:
+          rid: 6461568784486629376
+    - rid: 6461568784486629448
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 6461568784486629444
+        outPort:
+          rid: 6461568784486629385
+        referenceNode:
+          rid: 6461568784486629447
+    - rid: 6461568784486629449
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 6461568784486629443
+        outPort:
+          rid: 7677084342182478755
+        referenceNode:
+          rid: 7677084347958296997
+    - rid: 6461568784486629450
+      type: {class: NamedColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 3798.6667
+          y: 1514
+          width: 152.6665
+          height: 78.666626
+        note: 
+        id: 25ade01a-6b7b-4f66-b622-89bb2fef7d24
+        outPorts:
+        - rid: 6461568784486629451
+        namedColorId: ecbb7ac9-b352-4dd8-a78a-ea4b6d7a7910
+        colorOut:
+          rid: 6461568784486629451
+    - rid: 6461568784486629451
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 6461568784486629450
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 6461568784486629382
     - rid: 7677084342182477941
       type: {class: TextureToMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
@@ -1839,10 +2704,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 2971.3333
-          y: 815.3334
+          x: 2927.3333
+          y: 732
           width: 202
-          height: 78.666626
+          height: 78.66669
         note: 
         id: 1a7f0e2a-3721-4524-a446-d1df620f4575
         providerNode:
@@ -2170,7 +3035,6 @@ MonoBehaviour:
         - rid: 7677084347958296614
         - rid: 7677084347958296623
         - rid: 7677084342182478648
-        - rid: 7677084342182478749
         - rid: 7677084347958297317
         - rid: 7677084347958297325
         - rid: 7677084347958297333
@@ -2179,6 +3043,8 @@ MonoBehaviour:
         - rid: 7677084366919172187
         - rid: 7677084366919172208
         - rid: 7677084366919172247
+        - rid: 6461568784486629379
+        - rid: 7677084342182478749
     - rid: 7677084342182478677
       type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -2213,9 +3079,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4044.6667
-          y: 837.3334
-          width: 209.33325
+          x: 4054
+          y: 821.3334
+          width: 209.3335
           height: 302.6667
         note: 
         id: 806e9bdf-7466-4047-a6f6-98aa17650fdc
@@ -2288,18 +3154,18 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
-        - rid: 7677084342182478791
-        - rid: 7677084342182478750
+        - rid: 6461568784486629380
+        - rid: 6461568784486629437
     - rid: 7677084342182478697
       type: {class: ExtractPointsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 2624.6667
-          y: 2223.3335
+          x: 2824.6667
+          y: 2640
           width: 209.33325
-          height: 302.6665
+          height: 302.66675
         note: 
         id: 662e242a-3ade-4606-8622-87804dfb11c6
         providerNode:
@@ -2318,8 +3184,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 2858
-          y: 2096
+          x: 3058
+          y: 2512.6667
           width: 208.66675
           height: 102.66675
         note: 
@@ -2340,10 +3206,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3178.6667
-          y: 2249.3335
+          x: 3378.6667
+          y: 2666
           width: 236
-          height: 446.6665
+          height: 446.66675
         note: 
         id: e6e61c5b-d892-4c25-8198-6cb84d5a1c73
         providerNode:
@@ -2621,10 +3487,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4106
-          y: 1292
-          width: 69.333496
-          height: 42.666626
+          x: 5156.6665
+          y: 1539.3333
+          width: 78
+          height: 42.666748
         note: 
         id: 4579aef3-76a5-46bb-811f-9b303a9a2e31
         outPorts:
@@ -2639,8 +3505,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4319.3335
-          y: 1205.3333
+          x: 5294
+          y: 1455.3333
           width: 224
           height: 398.66675
         note: 
@@ -2731,7 +3597,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084342182478696
+          rid: 6461568784486629439
         isConnectionRequired: 0
     - rid: 7677084342182478751
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -2784,7 +3650,7 @@ MonoBehaviour:
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
         - rid: 7677084342182478797
-        - rid: 7677084342182478824
+        - rid: 6461568784486629443
     - rid: 7677084342182478756
       type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -2810,9 +3676,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4551.3335
-          y: 1446.6666
-          width: 99.33301
+          x: 5526
+          y: 1696.6666
+          width: 99.333496
           height: 42.666626
         note: 
         id: 003c6adc-1dfa-4d58-89a9-2f0f25aefb7f
@@ -2839,8 +3705,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5448
-          y: 833.3334
+          x: 5806
+          y: 869.3334
           width: 184.6665
           height: 102.666626
         note: 
@@ -2893,7 +3759,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084342182478696
+          rid: 6461568784486629439
         isConnectionRequired: 1
     - rid: 7677084342182478792
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -2922,8 +3788,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4682
-          y: 1202
+          x: 5656.6665
+          y: 1452
           width: 209.3335
           height: 350.66663
         note: 
@@ -3032,9 +3898,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4582.6665
-          y: 1367.3333
-          width: 69.333496
+          x: 5557.3335
+          y: 1617.3333
+          width: 69.33301
           height: 42.666748
         note: 
         id: 79ff6fd2-6bd9-4270-b2c3-76686058287e
@@ -3059,10 +3925,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6207.3335
-          y: 800.6667
+          x: 7050
+          y: 802
           width: 224
-          height: 398.66663
+          height: 398.6667
         note: 
         id: 7cdeed0f-f100-4277-b3ed-1d859eaa4eda
         providerNode:
@@ -3131,7 +3997,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084342182478755
+          rid: 6461568784486629446
         isConnectionRequired: 1
     - rid: 7677084342182478825
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -3219,10 +4085,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5982.6665
-          y: 928
+          x: 6825.3335
+          y: 929.3334
           width: 78
-          height: 42.666687
+          height: 42.666626
         note: 
         id: d45b8156-f698-49da-86dd-c34e40aa93f5
         outPorts:
@@ -3246,10 +4112,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5991.3335
-          y: 1044
-          width: 69.33301
-          height: 42.666626
+          x: 6834
+          y: 1045.3333
+          width: 69.333496
+          height: 42.666748
         note: 
         id: 8b4e7f06-d8ed-4f39-a795-b6e3e3e42094
         outPorts:
@@ -3273,8 +4139,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5158.6665
-          y: 1250
+          x: 6164
+          y: 1492.6666
           width: 209.3335
           height: 302.66663
         note: 
@@ -3355,10 +4221,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5991.3335
-          y: 1105.3333
-          width: 69.33301
-          height: 42.666748
+          x: 6834
+          y: 1106.6666
+          width: 69.333496
+          height: 42.666626
         note: 
         id: 820c8b68-62b7-48e3-b51a-f1c63646690d
         outPorts:
@@ -3376,27 +4242,16 @@ MonoBehaviour:
         typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
         connectedInPorts:
         - rid: 7677084342182478829
-    - rid: 7677084342182478845
-      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
-      data:
-        position:
-          serializedVersion: 2
-          x: 5731.3335
-          y: 800.6667
-          width: 209.33301
-          height: 278.66663
-        providerNode:
-          rid: 7677084342182478670
     - rid: 7677084347958296577
       type: {class: DrawPointsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3881.3333
-          y: 1872
-          width: 209.3335
-          height: 326.66663
+          x: 4081.3333
+          y: 2288.6667
+          width: 209.33325
+          height: 326.66675
         note: 
         id: cb368bf4-afc3-44e6-bda2-86f1bf677fb6
         providerNode:
@@ -3501,10 +4356,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 3414.6667
-          y: 2327.3335
+          x: 3614.6667
+          y: 2744
           width: 209.33325
-          height: 278.6665
+          height: 278.66675
         providerNode:
           rid: 7677084342182478670
     - rid: 7677084347958296594
@@ -3522,10 +4377,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3624
-          y: 2456.6667
+          x: 3824
+          y: 2873.3335
           width: 99.33325
-          height: 42.666748
+          height: 42.666504
         note: 
         id: 67ef3113-e3ad-4411-a2ae-fc361cd960c5
         outPorts:
@@ -3553,9 +4408,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3881.3333
-          y: 2236
-          width: 209.3335
+          x: 4081.3333
+          y: 2652.6667
+          width: 209.33325
           height: 326.66675
         note: 
         id: c7c90c95-6942-4639-94c0-48093bf1c67e
@@ -3671,10 +4526,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3881.3333
-          y: 2591.3335
-          width: 209.3335
-          height: 326.6665
+          x: 4081.3333
+          y: 3008
+          width: 209.33325
+          height: 326.66675
         note: 
         id: 9d7e40dc-dbc3-426c-93c5-c6bba5d42ac0
         providerNode:
@@ -3789,9 +4644,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3881.3333
-          y: 2954
-          width: 209.3335
+          x: 4081.3333
+          y: 3370.6667
+          width: 209.33325
           height: 326.66675
         note: 
         id: 2ac75040-c604-4b0c-9c53-f2c33accd0a7
@@ -3907,8 +4762,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4231.3335
-          y: 2068
+          x: 4431.3335
+          y: 2484.6667
           width: 184.6665
           height: 102.66675
         note: 
@@ -3990,10 +4845,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4242.6665
-          y: 2882.6667
+          x: 4442.6665
+          y: 3299.3335
           width: 184.66699
-          height: 102.66675
+          height: 102.666504
         note: 
         id: 49955454-ef57-421c-a959-5cfd9c71a99e
         providerNode:
@@ -4073,10 +4928,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4596.6665
-          y: 2423.3335
+          x: 4796.6665
+          y: 2840
           width: 184.66699
-          height: 102.666504
+          height: 102.66675
         note: 
         id: 6eb13433-88cb-4ced-bea5-c61649cbe3ac
         providerNode:
@@ -4157,10 +5012,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7217.3335
-          y: 2957.3335
+          x: 7417.3335
+          y: 3374
           width: 224
-          height: 398.6665
+          height: 398.66675
         note: 
         id: ed382580-51f4-49e2-a52d-3b12f5bd5fe7
         providerNode:
@@ -4191,10 +5046,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7053.3335
-          y: 3145.3335
+          x: 7253.3335
+          y: 3562
           width: 78
-          height: 42.666504
+          height: 42.666748
         note: 
         id: 03342f8a-ee0d-4ba6-b8ba-0d7d6bef880c
         outPorts:
@@ -4209,10 +5064,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7062
-          y: 3261.3335
+          x: 7262
+          y: 3678
           width: 69.333496
-          height: 42.666504
+          height: 42.666748
         note: 
         id: 20b17e53-6cbc-4d50-872e-e6d4478eda74
         outPorts:
@@ -4227,10 +5082,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7062
-          y: 3322.6667
+          x: 7262
+          y: 3739.3335
           width: 71.333496
-          height: 42.666748
+          height: 42.666504
         note: 
         id: f0aa4c1c-f790-47cf-89cd-6c51d90c1a3d
         outPorts:
@@ -4398,10 +5253,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4842
-          y: 2425.3335
+          x: 5042
+          y: 2842
           width: 209.3335
-          height: 302.6665
+          height: 302.66675
         note: 
         id: ccc1f012-43d0-4327-a185-6f8d9fb5a3d8
         providerNode:
@@ -4481,10 +5336,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4684.6665
-          y: 2552.6667
+          x: 4884.6665
+          y: 2969.3335
           width: 87.333496
-          height: 60.666748
+          height: 60.666504
         note: 
         id: b1154382-8c6f-4416-b9d7-bbda587967ad
         outPorts:
@@ -4586,10 +5441,10 @@ MonoBehaviour:
         title: Room Props Generation
         position:
           serializedVersion: 2
-          x: 2429.9995
-          y: 1798.6665
-          width: 3104
-          height: 1507.3333
+          x: 2565.333
+          y: 2215.333
+          width: 7454.667
+          height: 2942.6667
     - rid: 7677084347958296699
       type: {class: GroupNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -4613,7 +5468,19 @@ MonoBehaviour:
         - rid: 7677084347958297202
         - rid: 7677084366919172172
         - rid: 7677084366919172180
-        referenceNodes: []
+        - rid: 6461568784486629376
+        - rid: 6461568784486629392
+        - rid: 6461568784486629396
+        - rid: 6461568784486629406
+        - rid: 6461568784486629407
+        - rid: 6461568784486629408
+        - rid: 6461568784486629409
+        - rid: 6461568784486629426
+        - rid: 6461568784486629434
+        - rid: 6461568784486629450
+        referenceNodes:
+        - rid: 6461568784486629388
+        - rid: 6461568784486629432
         title: Enemies Spawn
         position:
           serializedVersion: 2
@@ -4630,16 +5497,17 @@ MonoBehaviour:
         - rid: 7677084342182478835
         - rid: 7677084342182478843
         - rid: 7677084347958297204
+        - rid: 6461568784486629440
         referenceNodes:
-        - rid: 7677084342182478845
         - rid: 7677084347958296997
+        - rid: 6461568784486629447
         title: Chest Object Spawn
         position:
           serializedVersion: 2
-          x: 5705.333
-          y: 727.3333
-          width: 751.333
-          height: 729.99994
+          x: 6548
+          y: 728.6666
+          width: 751.3335
+          height: 730
     - rid: 7677084347958296703
       type: {class: GroupNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -5977,9 +6845,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4149.3335
-          y: 1446.6666
-          width: 69.33301
+          x: 5200
+          y: 1694
+          width: 69.333496
           height: 42.666626
         note: 
         id: 3419d41e-104b-438d-937a-093aca39cc51
@@ -6004,10 +6872,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4149.3335
-          y: 1367.3333
-          width: 69.33301
-          height: 42.666748
+          x: 5200
+          y: 1614.6666
+          width: 70
+          height: 42.666626
         note: 
         id: acba7d3e-f8d1-4c70-ad5c-219f5dd51c77
         outPorts:
@@ -6031,9 +6899,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4913.3335
-          y: 1244.6666
-          width: 209.33301
+          x: 5888
+          y: 1494.6666
+          width: 209.3335
           height: 302.66663
         note: 
         id: 2cf77bf8-3dda-4584-87d4-918d320527f4
@@ -6125,21 +6993,12 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 5730.6665
-          y: 1105.3333
+          x: 6547.3335
+          y: 1335.3333
           width: 210
           height: 326.66675
         providerNode:
           rid: 7677084342182478738
-    - rid: 7677084347958296998
-      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
-      data:
-        inPort:
-          rid: 7677084342182478824
-        outPort:
-          rid: 7677084342182478755
-        referenceNode:
-          rid: 7677084347958296997
     - rid: 7677084347958297001
       type: {class: GroupNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -6172,19 +7031,19 @@ MonoBehaviour:
         title: Map Export
         position:
           serializedVersion: 2
-          x: 6996.666
-          y: -594
-          width: 1505.3335
-          height: 1813.3333
+          x: 7888.001
+          y: -617.3331
+          width: 1505.333
+          height: 1966
     - rid: 7677084347958297069
       type: {class: TextureToChildGameObjectsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8223.333
-          y: -520.6667
-          width: 253.33398
+          x: 9114.667
+          y: -544
+          width: 253.33301
           height: 150.66669
         note: 
         id: bfca0725-e461-4182-bc52-0ab822578084
@@ -6306,8 +7165,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7958
-          y: -138
+          x: 8849.333
+          y: -161.33333
           width: 112
           height: 42.666664
         note: 
@@ -6336,10 +7195,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7909.3335
-          y: -437.33334
+          x: 8800.667
+          y: -460.6667
           width: 80
-          height: 42.666656
+          height: 42.666687
         note: 
         id: 0d4694a6-c3ad-4a9d-841b-b135d244ed1b
         outPorts:
@@ -6363,9 +7222,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8006.6665
-          y: -73.333336
-          width: 63.333496
+          x: 8898
+          y: -96.66667
+          width: 63.333008
           height: 42.666668
         note: 
         id: c6847bc4-178a-45db-b794-837d2ebc43a0
@@ -6394,10 +7253,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8223.333
-          y: -295.33334
-          width: 253.33398
-          height: 150.66666
+          x: 9114.667
+          y: -318.6667
+          width: 253.33301
+          height: 150.66667
         note: 
         id: b16725b9-18b4-4681-87f0-7c7973b161bb
         providerNode:
@@ -6518,10 +7377,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7700
-          y: -333.33334
-          width: 209.3335
-          height: 302.66666
+          x: 8591.333
+          y: -356.6667
+          width: 209.33398
+          height: 302.6667
         note: 
         id: 9a5f4720-c8c0-46e7-8000-d6d0c3452119
         providerNode:
@@ -6613,9 +7472,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7337.3335
-          y: -177.33333
-          width: 152.6665
+          x: 8228.667
+          y: -200.66666
+          width: 152.66602
           height: 78.666664
         note: 
         id: 0ce198b6-7252-4591-b24a-e41fa434a28a
@@ -6640,10 +7499,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7932
-          y: -241.33333
-          width: 89.333496
-          height: 42.66667
+          x: 8823.333
+          y: -264.66666
+          width: 89.333984
+          height: 42.666656
         note: 
         id: aa7480dd-176b-4513-afda-90e0778f3b29
         outPorts:
@@ -6667,10 +7526,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8025.3335
-          y: 115.333336
+          x: 8916.667
+          y: 92
           width: 90
-          height: 42.666656
+          height: 42.666664
         note: 
         id: 792b505d-f9d3-4129-92c8-4b894b7e1d4b
         outPorts:
@@ -6684,9 +7543,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8223.333
-          y: 34
-          width: 253.33398
+          x: 9114.667
+          y: 10.666666
+          width: 253.33301
           height: 150.66667
         note: 
         id: 6a4d5069-01a2-4af3-9724-d19d3440d271
@@ -6928,10 +7787,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 2390.6667
-          y: 2248.6667
+          x: 2590.6667
+          y: 2665.3335
           width: 152.6665
-          height: 78.66675
+          height: 78.666504
         note: 
         id: 3b64a2e1-64a7-420f-82ea-269dae17a3f0
         outPorts:
@@ -6955,9 +7814,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4051.3333
-          y: 1188.6666
-          width: 152.66675
+          x: 5102
+          y: 1436
+          width: 152.6665
           height: 78.666626
         note: 
         id: 2d4d2ed6-562d-4ab9-b8e7-72302d411881
@@ -6982,10 +7841,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5970
-          y: 1176
-          width: 152.6665
-          height: 78.666626
+          x: 6812.6665
+          y: 1177.3333
+          width: 152.66699
+          height: 78.66675
         note: 
         id: 083f6ef9-5528-4ad0-85dc-f04e56bdffaa
         outPorts:
@@ -7009,8 +7868,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7007.3335
-          y: 3394
+          x: 7207.3335
+          y: 3810.6667
           width: 152.6665
           height: 78.66675
         note: 
@@ -7035,10 +7894,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 6859.3335
-          y: 2668.6667
+          x: 7059.3335
+          y: 3085.3335
           width: 210
-          height: 326.66675
+          height: 326.6665
         providerNode:
           rid: 7677084342182478821
     - rid: 7677084347958297214
@@ -7056,10 +7915,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3288.6667
-          y: 3280.6667
+          x: 3488.6667
+          y: 3697.3335
           width: 209.33325
-          height: 326.66675
+          height: 326.6665
         note: 
         id: 0cf20047-1d37-4750-92b5-72777bc9dad9
         providerNode:
@@ -7165,8 +8024,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3288.6667
-          y: 3673.3335
+          x: 3488.6667
+          y: 4090.0002
           width: 209.33325
           height: 326.6665
         note: 
@@ -7274,8 +8133,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3288.6667
-          y: 4036.6667
+          x: 3488.6667
+          y: 4452.6665
           width: 209.33325
           height: 326.6665
         note: 
@@ -7383,8 +8242,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3288.6667
-          y: 4390
+          x: 3488.6667
+          y: 4806
           width: 209.33325
           height: 326.6665
         note: 
@@ -7492,10 +8351,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3053.3333
-          y: 3874
+          x: 3253.3333
+          y: 4290
           width: 99.333496
-          height: 42.666748
+          height: 42.666504
         note: 
         id: 46709181-ea70-414e-b674-81d8de659d09
         outPorts:
@@ -7509,10 +8368,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 2754.6667
-          y: 3749.3335
+          x: 2954.6667
+          y: 4165.333
           width: 209.33325
-          height: 278.6665
+          height: 278.667
         providerNode:
           rid: 7677084342182478670
     - rid: 7677084347958297340
@@ -7533,8 +8392,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 2718.6667
-          y: 4038.6667
+          x: 2918.6667
+          y: 4454.6665
           width: 245.33325
           height: 446.6665
         providerNode:
@@ -7617,8 +8476,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3696.6667
-          y: 4312
+          x: 3896.6667
+          y: 4728
           width: 184.6665
           height: 102.666504
         note: 
@@ -7639,10 +8498,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3685.3333
-          y: 3497.3335
+          x: 3885.3333
+          y: 3914
           width: 184.66675
-          height: 102.666504
+          height: 102.66675
         note: 
         id: 806ad2a5-2908-4ec9-ac61-9a276a6c4538
         providerNode:
@@ -7783,10 +8642,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4031.3333
-          y: 3874
-          width: 184.66675
-          height: 102.66675
+          x: 4231.3335
+          y: 4290
+          width: 184.6665
+          height: 102.666504
         note: 
         id: 13f9fbaa-b36b-472f-8223-05400820682c
         providerNode:
@@ -7866,10 +8725,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4458
-          y: 3694
+          x: 4658
+          y: 4110.6665
           width: 184.6665
-          height: 102.66675
+          height: 102.666504
         note: 
         id: 923d614b-1150-4164-9d22-5e547ce32c36
         providerNode:
@@ -8599,10 +9458,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7323.3335
-          y: -516
+          x: 8214.667
+          y: -539.3333
           width: 209.33301
-          height: 278.66666
+          height: 278.6667
         providerNode:
           rid: 7677084347958297488
     - rid: 7677084347958297498
@@ -8657,9 +9516,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8223.333
-          y: 348.66666
-          width: 253.33398
+          x: 9114.667
+          y: 325.3333
+          width: 253.33301
           height: 150.66669
         note: 
         id: ca099ca1-1a8c-4c02-bc92-25c0ee21a363
@@ -8781,10 +9640,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7909.3335
-          y: 398.66666
-          width: 122.666504
-          height: 42.666656
+          x: 8800.667
+          y: 375.3333
+          width: 122.666016
+          height: 42.666687
         note: 
         id: cb09b068-6807-4382-b932-86857e0b4aee
         outPorts:
@@ -8808,10 +9667,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7773.3335
-          y: -8.666667
+          x: 8664.667
+          y: -32
           width: 209.33301
-          height: 326.6667
+          height: 326.66666
         note: 
         id: 9f78020d-c22a-4e45-a0ab-fe49d6f0f82c
         providerNode:
@@ -8905,10 +9764,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7562
-          y: 115.333336
-          width: 152.6665
-          height: 78.66666
+          x: 8453.333
+          y: 92
+          width: 152.66699
+          height: 78.666664
         note: 
         id: e017e717-406d-487b-be53-87bfa342f2ee
         outPorts:
@@ -8932,9 +9791,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7562
-          y: 209.33334
-          width: 152.6665
+          x: 8453.333
+          y: 186
+          width: 152.66699
           height: 78.66667
         note: 
         id: a86a9848-fb72-43ae-a20f-1d6fdd994f24
@@ -8959,8 +9818,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5178.6665
-          y: 2954
+          x: 5378.6665
+          y: 3370.6667
           width: 224
           height: 398.66675
         note: 
@@ -9119,10 +9978,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 4856
-          y: 2764.6667
+          x: 5056
+          y: 3181.3335
           width: 209.3335
-          height: 278.66675
+          height: 278.6665
         providerNode:
           rid: 7677084342182478670
     - rid: 7677084347958297538
@@ -9140,8 +9999,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5046.6665
-          y: 3058
+          x: 5246.6665
+          y: 3474.6667
           width: 78
           height: 42.666748
         note: 
@@ -9167,10 +10026,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4947.3335
-          y: 3156.6667
+          x: 5147.3335
+          y: 3573.3335
           width: 99.33301
-          height: 42.666748
+          height: 42.666504
         note: 
         id: e51c6d8a-1887-4eac-8771-11d45a0ac96d
         outPorts:
@@ -9198,10 +10057,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5611.3335
-          y: 3043.3335
+          x: 5811.3335
+          y: 3460
           width: 209.33301
-          height: 518.6665
+          height: 518.66675
         note: 
         id: 8c794551-91d2-4e47-bd6c-3b150fa80ca0
         providerNode:
@@ -9401,8 +10260,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5437.3335
-          y: 3283.3335
+          x: 5637.3335
+          y: 3699.3335
           width: 69.33301
           height: 42.666504
         note: 
@@ -9428,10 +10287,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5228
-          y: 3424.6667
+          x: 5428
+          y: 3841.3335
           width: 209.3335
-          height: 302.66675
+          height: 301.99976
         note: 
         id: 0b9a6992-7367-4e76-8267-89ba2123f6b4
         providerNode:
@@ -9509,8 +10368,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 4915.3335
-          y: 3448.6667
+          x: 5115.3335
+          y: 3865.3335
           width: 209.33301
           height: 278.66675
         providerNode:
@@ -9530,8 +10389,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5147.3335
-          y: 3572
+          x: 5347.3335
+          y: 3988.6667
           width: 63.333008
           height: 42.666748
         note: 
@@ -9558,10 +10417,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6154
-          y: 2651.3335
+          x: 6354
+          y: 3068
           width: 209.3335
-          height: 302.6665
+          height: 302.66675
         note: 
         id: 0d9c1ed9-cb63-4684-8d37-125f3b110997
         providerNode:
@@ -9652,10 +10511,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6609.3335
-          y: 3036.6667
+          x: 6809.3335
+          y: 3453.3335
           width: 209.33301
-          height: 302.66675
+          height: 302.6665
         note: 
         id: 403f2866-0773-4a2e-b1f1-0a8702b6c442
         providerNode:
@@ -9736,8 +10595,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6456
-          y: 3326
+          x: 6656
+          y: 3742.6667
           width: 86.666504
           height: 60.666748
         note: 
@@ -9763,10 +10622,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7297.3335
-          y: -2.666668
+          x: 8188.6665
+          y: -26
           width: 264.6665
-          height: 278.6667
+          height: 278.66666
         providerNode:
           rid: 7677084347958296748
     - rid: 7677084351077023756
@@ -9784,10 +10643,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5457.3335
-          y: 3079.3335
+          x: 5657.3335
+          y: 3496
           width: 99.33301
-          height: 42.666504
+          height: 42.666748
         note: 
         id: dc2776b2-2a61-4907-bcd1-159ad80c976e
         outPorts:
@@ -9814,10 +10673,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5865.3335
-          y: 2650.6667
+          x: 6065.3335
+          y: 3067.3335
           width: 209.33301
-          height: 326.66675
+          height: 326.6665
         note: 
         id: 5fcf07ab-3674-400f-b5cc-e66a061281e6
         providerNode:
@@ -9911,10 +10770,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5755.3335
-          y: 2781.3335
+          x: 5955.3335
+          y: 3198
           width: 99.33301
-          height: 42.666504
+          height: 42.666748
         note: 
         id: f647548c-7327-40de-9a7e-5cfb33cc0e84
         outPorts:
@@ -9939,10 +10798,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5958
-          y: 3384
+          x: 6158
+          y: 3800.6667
           width: 209.3335
-          height: 302.66675
+          height: 302.6665
         note: 
         id: 375e99be-e705-4589-80ad-9f7877fba5ea
         providerNode:
@@ -10033,8 +10892,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 6610
-          y: 2921.3335
+          x: 6810
+          y: 3338
           width: 250
           height: 100
         title: Props Generation Floor
@@ -10049,8 +10908,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7628.6665
-          y: 3098
+          x: 7828.6665
+          y: 3514.6667
           width: 209.3335
           height: 326.66675
         note: 
@@ -10145,10 +11004,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7007.3335
-          y: 3501.3335
+          x: 7207.3335
+          y: 3917.3335
           width: 210
-          height: 326.6665
+          height: 326.66675
         providerNode:
           rid: 7677084347958297525
     - rid: 7677084366919172149
@@ -10157,10 +11016,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7282.6665
-          y: 3501.3335
+          x: 7482.6665
+          y: 3917.3335
           width: 209.3335
-          height: 326.6665
+          height: 326.66675
         note: 
         id: 35ef22ae-5479-4a1f-9d6c-bb71d55f6c27
         providerNode:
@@ -10263,10 +11122,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7144
-          y: 3860
+          x: 7344
+          y: 4276.6665
           width: 99.333496
-          height: 42.666748
+          height: 42.666504
         note: 
         id: dd2a5437-a93d-4941-adec-1c1127d08d31
         outPorts:
@@ -10291,10 +11150,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7084
-          y: 3920
+          x: 7284
+          y: 4336.6665
           width: 159.3335
-          height: 78.66675
+          height: 78.666504
         note: 
         id: fa47f52e-4abf-45a1-83d4-33ca5771c1f2
         outPorts:
@@ -10453,10 +11312,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7712
-          y: 3972
+          x: 7912
+          y: 4388
           width: 209.3335
-          height: 326.66675
+          height: 326.6665
         note: 
         id: b730e42c-8b6c-4d83-b597-0f26c698cc3c
         providerNode:
@@ -10487,8 +11346,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7386
-          y: 4344
+          x: 7586
+          y: 4760
           width: 211.3335
           height: 78.666504
         providerNode:
@@ -10582,10 +11441,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7355.3335
-          y: 4020
+          x: 7555.3335
+          y: 4436
           width: 209.33301
-          height: 278.66675
+          height: 278.6665
         providerNode:
           rid: 7677084342182478670
     - rid: 7677084366919172193
@@ -10603,10 +11462,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8017.3335
-          y: 3915.3335
-          width: 168.6665
-          height: 78.666504
+          x: 8217.333
+          y: 4331.333
+          width: 168.66699
+          height: 78.66699
         note: 
         id: a29f491c-7134-4574-b2e5-a735419503c2
         outPorts:
@@ -10630,10 +11489,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8547.333
-          y: 3424.6667
+          x: 8747.333
+          y: 3841.3335
           width: 209.33398
-          height: 326.66675
+          height: 325.99976
         note: 
         id: 496c5d63-add4-4c1e-854b-f85e75b96391
         providerNode:
@@ -10726,10 +11585,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7313.3335
-          y: 360
+          x: 8204.667
+          y: 336.66666
           width: 209.33301
-          height: 278.66666
+          height: 278.6667
         providerNode:
           rid: 7677084366919172196
     - rid: 7677084366919172204
@@ -10747,10 +11606,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8243.333
-          y: 3945.3335
+          x: 8443.333
+          y: 4361.333
           width: 224
-          height: 398.66675
+          height: 398.667
         note: 
         id: 53e39e83-ae11-4a0f-aba0-8969d566f522
         providerNode:
@@ -10917,10 +11776,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7587.3335
-          y: 3961.3335
+          x: 7787.3335
+          y: 4377.333
           width: 99.33301
-          height: 42.666504
+          height: 42.666992
         note: 
         id: 8c153d14-1d6f-46ad-960d-11685825c40a
         outPorts:
@@ -10945,10 +11804,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8114.6665
-          y: 3838.6667
-          width: 71.333496
-          height: 42.666748
+          x: 8314.667
+          y: 4254.6665
+          width: 71.33301
+          height: 42.666504
         note: 
         id: 66aa4696-e49a-4568-8177-657757c28cac
         outPorts:
@@ -10972,8 +11831,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7976.6665
-          y: 4078.6667
+          x: 8176.6665
+          y: 4494.6665
           width: 209.3335
           height: 302.6665
         note: 
@@ -11055,9 +11914,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7834
-          y: 4344
-          width: 87.333496
+          x: 8034
+          y: 4760
+          width: 86.666504
           height: 60.666504
         note: 
         id: 89a1485c-f4cd-49b8-b790-c6bacacc84ae
@@ -11083,10 +11942,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8547.333
-          y: 3961.3335
+          x: 8747.333
+          y: 4377.333
           width: 209.33398
-          height: 302.66675
+          height: 302.667
         note: 
         id: 0c11fdd7-d5f2-48e2-a1b6-677d265c190d
         providerNode:
@@ -11166,10 +12025,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9108.667
-          y: 3961.3335
+          x: 9308.667
+          y: 4377.333
           width: 224
-          height: 398.66675
+          height: 398.667
         note: 
         id: 36e4e3af-bb7e-4809-8653-581ecbc9f806
         providerNode:
@@ -11326,10 +12185,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8809.333
-          y: 3961.3335
+          x: 9009.333
+          y: 4377.333
           width: 209.33398
-          height: 302.66675
+          height: 302.667
         note: 
         id: d3790820-613d-4dd9-a93a-30f9a39affd8
         providerNode:
@@ -11408,8 +12267,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8725.333
-          y: 4317.333
+          x: 8925.333
+          y: 4733.333
           width: 63.333984
           height: 42.666992
         note: 
@@ -11434,8 +12293,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 8865.333
-          y: 4317.333
+          x: 9065.333
+          y: 4733.333
           width: 209.33398
           height: 278.667
         providerNode:
@@ -11455,8 +12314,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9018.667
-          y: 4122
+          x: 9218.667
+          y: 4538
           width: 78
           height: 42.666504
         note: 
@@ -11482,10 +12341,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8906
-          y: 3860
+          x: 9106
+          y: 4276.6665
           width: 168.66699
-          height: 78.66675
+          height: 78.666504
         note: 
         id: 93c9bf37-c04d-4708-b512-d61cbeaf85cc
         outPorts:
@@ -11509,9 +12368,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 8223.333
-          y: 678
-          width: 253.33398
+          x: 9114.667
+          y: 654.6667
+          width: 253.33301
           height: 150.66669
         note: 
         id: 92d181ef-a169-4bd1-93df-51563bf15e5d
@@ -11633,10 +12492,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7883.3335
-          y: 638.6667
+          x: 8774.667
+          y: 615.3334
           width: 112
-          height: 42.666687
+          height: 42.666626
         note: 
         id: 27118362-23d5-4dc1-8d5e-9e5710d5e71d
         outPorts:
@@ -11660,9 +12519,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7860
-          y: 744
-          width: 161.3335
+          x: 8751.333
+          y: 720.6667
+          width: 161.33398
           height: 42.666687
         note: 
         id: e9657c5f-faa5-44f1-a2a4-2609b9830af9
@@ -11687,10 +12546,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9570.667
-          y: 4030
+          x: 9770.667
+          y: 4446
           width: 224
-          height: 398.66675
+          height: 398.6665
         note: 
         id: 3e4e7fea-66f8-4ac6-ba3d-587be2fe4856
         providerNode:
@@ -11847,10 +12706,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9462
-          y: 3934.6667
+          x: 9662
+          y: 4350.6665
           width: 78
-          height: 42.666748
+          height: 42.666504
         note: 
         id: 6502fce9-33df-4bef-b1f4-13a2f4fd35e3
         outPorts:
@@ -11874,8 +12733,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9478.667
-          y: 4146.6665
+          x: 9678.667
+          y: 4562.6665
           width: 70
           height: 42.666504
         note: 
@@ -11892,8 +12751,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9470.667
-          y: 4226
+          x: 9670.667
+          y: 4642
           width: 69.33301
           height: 42.666504
         note: 
@@ -11928,8 +12787,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 9394.667
-          y: 4466
+          x: 9594.667
+          y: 4882
           width: 152.66602
           height: 78.666504
         note: 
@@ -11954,8 +12813,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7022
-          y: 678
+          x: 7913.3335
+          y: 654.6667
           width: 210
           height: 326.6667
         providerNode:
@@ -11965,8 +12824,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 9123.333
-          y: 4404
+          x: 9323.333
+          y: 4820
           width: 209.33398
           height: 278.6665
         providerNode:
@@ -12503,8 +13362,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7202.6665
-          y: 2748.6667
+          x: 7402.6665
+          y: 3165.3335
           width: 250
           height: 200
         title: Floor Props
@@ -12516,8 +13375,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7611.3335
-          y: 2895.3335
+          x: 7811.3335
+          y: 3312
           width: 250
           height: 200
         title: Each Corner Lights Floor
@@ -12529,8 +13388,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 8522.667
-          y: 3224
+          x: 8722.667
+          y: 3640.6667
           width: 250
           height: 200
         title: Props Middle Floor
@@ -12542,8 +13401,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 9099.333
-          y: 3752
+          x: 9299.333
+          y: 4168.6665
           width: 250
           height: 200
         title: Props Middle Ceiling
@@ -12555,10 +13414,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 9560
-          y: 3810
+          x: 9760
+          y: 4226.6665
           width: 250
-          height: 198.66675
+          height: 198
         title: Props Ceiling
         contents: Note
         theme: 0
@@ -12569,9 +13428,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 7340
-          y: 678
-          width: 209.3335
+          x: 8231.333
+          y: 654.6667
+          width: 209.33398
           height: 326.6667
         note: 
         id: 16d89b39-f3db-440c-a38f-2e12c8ff6d5c
@@ -12769,8 +13628,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 7104
-          y: 1044
+          x: 7995.3335
+          y: 1020.6667
           width: 209.3335
           height: 302.66663
         providerNode:
