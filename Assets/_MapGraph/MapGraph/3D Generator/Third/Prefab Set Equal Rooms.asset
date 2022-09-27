@@ -23,18 +23,36 @@ MonoBehaviour:
       name: Floor
       prefabs:
       - prefab: {fileID: 157142, guid: 015e74f6dce3c6c4f8c4eaa62f333f4f, type: 3}
+      - prefab: {fileID: 120462, guid: 1eaa92f2bd7cca04fa5790640c0a6cbc, type: 3}
+      - prefab: {fileID: 138042, guid: 25c422daccf89b44caae89c5305accf3, type: 3}
+      - prefab: {fileID: 153710, guid: b9aca9bda9b31dc418fc52e0d4d54b7d, type: 3}
+      - prefab: {fileID: 194524, guid: 99b8358d10d47044e8562d7009d9add6, type: 3}
+      - prefab: {fileID: 102998, guid: 1c57f01331df00b4ab1ca888bc468ddf, type: 3}
+      - prefab: {fileID: 157142, guid: 015e74f6dce3c6c4f8c4eaa62f333f4f, type: 3}
+      - prefab: {fileID: 157142, guid: 015e74f6dce3c6c4f8c4eaa62f333f4f, type: 3}
+      - prefab: {fileID: 157142, guid: 015e74f6dce3c6c4f8c4eaa62f333f4f, type: 3}
+      - prefab: {fileID: 157142, guid: 015e74f6dce3c6c4f8c4eaa62f333f4f, type: 3}
+      - prefab: {fileID: 157142, guid: 015e74f6dce3c6c4f8c4eaa62f333f4f, type: 3}
     - id: b5d3fccd-cd71-480d-a6f7-440adbf81afe
       name: Walls
       prefabs:
-      - prefab: {fileID: 8348861388063110783, guid: 051da3cbb3d8fe44eaa4ed7bfe6066bb, type: 3}
+      - prefab: {fileID: 1475255444874890228, guid: 0925e42179cb0a14eba3098cc833a5e1, type: 3}
+      - prefab: {fileID: 1475255444874890228, guid: 788be15bfc2538747b5ca6e15c51d1d9, type: 3}
+      - prefab: {fileID: 1475255444874890228, guid: f243522c8c1251b4eacf7839997bd384, type: 3}
+      - prefab: {fileID: 1475255444874890228, guid: 2dd23828870ec4f44a15702d02f61e2c, type: 3}
+      - prefab: {fileID: 1475255444874890228, guid: c080c1fb2a1f16044b2a8bfb8e709b14, type: 3}
     - id: 10e98a1c-a71e-418f-99ed-48d47128a61c
       name: Ceiling
       prefabs:
-      - prefab: {fileID: 100000, guid: f917cb4f97193bb488ccec2d7af4a4cd, type: 3}
-      - prefab: {fileID: 100000, guid: 91fa721a429345a418c481a5c5758159, type: 3}
-      - prefab: {fileID: 100000, guid: b8d66b45fa3a51c4f82a9d95650e0a41, type: 3}
-      - prefab: {fileID: 100000, guid: 97360b0251bf1da4b961b8e6123f700f, type: 3}
-      - prefab: {fileID: 100000, guid: 39f218dc1e55b3848a1ae6465b59e953, type: 3}
+      - prefab: {fileID: 106404, guid: 5c44c7013f23b7245a8093e896db2579, type: 3}
+      - prefab: {fileID: 158210, guid: 5a38941881fed914c865e2a58dac9664, type: 3}
+      - prefab: {fileID: 178526, guid: aa176240a635c0840bc879bf1975cb5f, type: 3}
+      - prefab: {fileID: 174938, guid: b1414244a590615478c2682a38636db5, type: 3}
+      - prefab: {fileID: 114486, guid: 0a3c7a511a1e7d642b354da158befcd1, type: 3}
+      - prefab: {fileID: 106404, guid: 5c44c7013f23b7245a8093e896db2579, type: 3}
+      - prefab: {fileID: 106404, guid: 5c44c7013f23b7245a8093e896db2579, type: 3}
+      - prefab: {fileID: 106404, guid: 5c44c7013f23b7245a8093e896db2579, type: 3}
+      - prefab: {fileID: 106404, guid: 5c44c7013f23b7245a8093e896db2579, type: 3}
     - id: ea750f75-0466-421a-ae22-d7817fa3db93
       name: Enemies
       prefabs:
@@ -46,27 +64,71 @@ MonoBehaviour:
       name: Props
       prefabs:
       - prefab: {fileID: 123292, guid: 807ff6aaa1694c240bf9d6f604b7d9aa, type: 3}
-      - prefab: {fileID: 187514, guid: 3d7cd98b10518bc48a63c18b2275c70e, type: 3}
-      - prefab: {fileID: 195432, guid: af055df8c68b8ff489f6105758982eb2, type: 3}
-      - prefab: {fileID: 126132, guid: 115fc11ee3243734aa848173aea49f94, type: 3}
+      - prefab: {fileID: 5587801814268941242, guid: 9f43184042464af458e3117ed22482cf, type: 3}
+      - prefab: {fileID: 3752898684693381675, guid: 36b5409b8d66d804f94de39c424d66f3, type: 3}
+      - prefab: {fileID: 7250610609801960685, guid: 5b1e317963bd8ab46bdde91f461ad071, type: 3}
+      - prefab: {fileID: 3614246102826683243, guid: fea62f41ca609b74ebbd4d2ade3fa613, type: 3}
+      - prefab: {fileID: 8880936904063222312, guid: 23286936b8a2f2b468a615d73324f0c4, type: 3}
+      - prefab: {fileID: 9128893633523921439, guid: 687c622e318c4a34d829aeb296aa3cdf, type: 3}
+      - prefab: {fileID: 5025331510388066692, guid: 5f7116026ba53594484f7ae1263bb652, type: 3}
+      - prefab: {fileID: 2383936837489037486, guid: 2846a89ba09820f48b60827c94f403d7, type: 3}
+      - prefab: {fileID: 7115482862158525802, guid: 5e9b8890327e9d54faaee1fe6db99f61, type: 3}
     - id: e8ab187c-eede-4ca0-aac6-99dba24274a2
       name: Upper Props
       prefabs:
-      - prefab: {fileID: 127800, guid: 73eee973709c1b044aa87e9eb332a527, type: 3}
-      - prefab: {fileID: 104734, guid: 4af8719a888cf5b46bdd447a821a40d2, type: 3}
-      - prefab: {fileID: 150972, guid: 6909bf91eec20eb4b88365b6b4893dff, type: 3}
-      - prefab: {fileID: 183688, guid: 5c422fedc5e6a6d46aa8e8e6510582e3, type: 3}
-      - prefab: {fileID: 112966, guid: 2bca940be3594bf45bbdb46ee493b30a, type: 3}
+      - prefab: {fileID: 121702, guid: cee0442aefa6f264fba2b57cfa7dc9bd, type: 3}
+      - prefab: {fileID: 183688, guid: bec32ce063bde814888c475e235be552, type: 3}
+      - prefab: {fileID: 159302, guid: 2fce60215673d1c468efde37bb0a5e39, type: 3}
+      - prefab: {fileID: 105538, guid: 734494ab9d97eed4e896e16d6db5b562, type: 3}
+      - prefab: {fileID: 112966, guid: b430774c3f1f12549911e57676bd4cca, type: 3}
+      - prefab: {fileID: 143802, guid: 598eb2205680e074db3de785a002e3b0, type: 3}
+      - prefab: {fileID: 128124, guid: e03d543c0808b6641a9f990dc7b8e5a9, type: 3}
+      - prefab: {fileID: 183688, guid: bec32ce063bde814888c475e235be552, type: 3}
+      - prefab: {fileID: 172570, guid: b3eb327a1f3123449966563478c3f0d0, type: 3}
+      - prefab: {fileID: 183246, guid: bd5bbfe53384e324dbbf229a40bef987, type: 3}
+      - prefab: {fileID: 140578, guid: b2361172961fad54e88047ea53d6ff83, type: 3}
+      - prefab: {fileID: 113030, guid: 55e160714fdc7c64389ff738b3eca03e, type: 3}
+      - prefab: {fileID: 170954, guid: 8cb482296d264c54b8f6d94303e22e67, type: 3}
+      - prefab: {fileID: 187418, guid: 643a0f06b7831bd4f800ea9eb5486d19, type: 3}
+      - prefab: {fileID: 134774, guid: 046b3f369f155094898341cac6272de2, type: 3}
     - id: 463730c3-b1dc-4f8c-a02b-f8f5fd857253
       name: Chests
       prefabs:
-      - prefab: {fileID: 140248, guid: 60a07671877a5ae4c8779ab9f36f65b2, type: 3}
-      - prefab: {fileID: 133660, guid: 578f6743cadae294baa9d8f0b67054f7, type: 3}
+      - prefab: {fileID: 8090990589146250171, guid: 418ce52cfc14c624e88e27076f65f073, type: 3}
+      - prefab: {fileID: 3834081785163577381, guid: 2c0af7e2c58eaf54484d8146e60098de, type: 3}
+      - prefab: {fileID: 8801061474140009187, guid: 217e75b5409feda4499aa89a85f93da6, type: 3}
+      - prefab: {fileID: 6613632397950626368, guid: c782ad3d43e2eb14d82ae1c66c05c8c2, type: 3}
+      - prefab: {fileID: 1658810901833955793, guid: b56bb7ac7249a274887b90295f7754ee, type: 3}
     - id: 7c8fb1fe-5c79-4408-91fe-fb79bc503405
       name: Floor Border
       prefabs:
       - prefab: {fileID: 169968, guid: 292d28922523dca4a9d538af4cfdb1a1, type: 3}
       - prefab: {fileID: 156082, guid: 23660da2037193a4bae9862cba7647d2, type: 3}
+    - id: 578588b1-7003-47e4-9dea-9ca9129a7e29
+      name: Light Props Floor
+      prefabs:
+      - prefab: {fileID: 136604, guid: 9cc40efea190f224d82e158d5c23e2eb, type: 3}
+    - id: b415e160-c424-427b-9618-5d17d99e2036
+      name: Light Props Ceiling
+      prefabs:
+      - prefab: {fileID: 156216, guid: 9d1b99ccd1b1b174fb4b98f812d99d7c, type: 3}
+      - prefab: {fileID: 100744, guid: 5be716fa732886c47baa3344b532d8e0, type: 3}
+    - id: 07e86ae7-1c03-4a8f-97b4-eb2fb9e279c4
+      name: Props Middle Floor
+      prefabs:
+      - prefab: {fileID: 8171507058929929244, guid: 527b5bd5a18442c499113944c1f6a468, type: 3}
+      - prefab: {fileID: 4529536373233068543, guid: 4b6f6dd59cc506743a4c724d16e3861d, type: 3}
+      - prefab: {fileID: 5574514567889738691, guid: fdd45ecd4e4b78845a67f7028e18684b, type: 3}
+      - prefab: {fileID: 6118406206186925856, guid: 2d4504809379b0949a723f2a13b85c65, type: 3}
+      - prefab: {fileID: 6425653594686567834, guid: e5badea6229362449bf2bfa78411d81c, type: 3}
+      - prefab: {fileID: 352006809125211873, guid: 2981e713c81cf284e985c3d1ef0ed462, type: 3}
+      - prefab: {fileID: 8880936904063222312, guid: 3b867846b48adee4cb05ae67e038be04, type: 3}
+      - prefab: {fileID: 9128893633523921439, guid: 6a9b04a3664c9e749a7df999e33925eb, type: 3}
+      - prefab: {fileID: 8951685076706005933, guid: 83eda9bcf0c49eb49a16c006d8c3f3a5, type: 3}
+    - id: 99149ac5-e9dc-4acf-b59b-49711e6a5619
+      name: Light Props Corridor
+      prefabs:
+      - prefab: {fileID: 100744, guid: a50d274b1bad8c547aaa8613019d03bc, type: 3}
     orderedIds:
     - 73e61a67-a497-480a-b3ee-c8e31551b6d7
     - b5d3fccd-cd71-480d-a6f7-440adbf81afe
@@ -76,3 +138,7 @@ MonoBehaviour:
     - e8ab187c-eede-4ca0-aac6-99dba24274a2
     - 463730c3-b1dc-4f8c-a02b-f8f5fd857253
     - 7c8fb1fe-5c79-4408-91fe-fb79bc503405
+    - 578588b1-7003-47e4-9dea-9ca9129a7e29
+    - b415e160-c424-427b-9618-5d17d99e2036
+    - 07e86ae7-1c03-4a8f-97b4-eb2fb9e279c4
+    - 99149ac5-e9dc-4acf-b59b-49711e6a5619

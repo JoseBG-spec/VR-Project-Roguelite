@@ -137,6 +137,48 @@ MonoBehaviour:
   - rid: 7677084347958297588
   - rid: 7677084347958297595
   - rid: 7677084351077023745
+  - rid: 7677084366919172096
+  - rid: 7677084366919172098
+  - rid: 7677084366919172105
+  - rid: 7677084366919172107
+  - rid: 7677084366919172139
+  - rid: 7677084366919172149
+  - rid: 7677084366919172157
+  - rid: 7677084366919172159
+  - rid: 7677084366919172172
+  - rid: 7677084366919172180
+  - rid: 7677084366919172182
+  - rid: 7677084366919172194
+  - rid: 7677084366919172196
+  - rid: 7677084366919172205
+  - rid: 7677084366919172218
+  - rid: 7677084366919172220
+  - rid: 7677084366919172222
+  - rid: 7677084366919172228
+  - rid: 7677084366919172230
+  - rid: 7677084366919172244
+  - rid: 7677084366919172256
+  - rid: 7677084366919172262
+  - rid: 7677084366919172266
+  - rid: 7677084366919172268
+  - rid: 7677084366919172271
+  - rid: 7677084366919172279
+  - rid: 7677084366919172281
+  - rid: 7677084366919172284
+  - rid: 7677084366919172297
+  - rid: 7677084366919172299
+  - rid: 7677084366919172300
+  - rid: 7677084366919172305
+  - rid: 7677084366919172311
+  - rid: 7677084366919172317
+  - rid: 7677084366919172323
+  - rid: 7677084366919172325
+  - rid: 7677084366919172331
+  - rid: 7677084366919172333
+  - rid: 7677084366919172346
+  - rid: 7677084366919172349
+  - rid: 7677084370181292042
+  - rid: 7677084370181292051
   consumerNodes:
   - rid: 7677084342182478515
   - rid: 7677084342182478516
@@ -202,6 +244,26 @@ MonoBehaviour:
   - rid: 7677084347958297576
   - rid: 7677084347958297588
   - rid: 7677084347958297595
+  - rid: 7677084366919172098
+  - rid: 7677084366919172107
+  - rid: 7677084366919172139
+  - rid: 7677084366919172149
+  - rid: 7677084366919172172
+  - rid: 7677084366919172182
+  - rid: 7677084366919172196
+  - rid: 7677084366919172205
+  - rid: 7677084366919172222
+  - rid: 7677084366919172230
+  - rid: 7677084366919172244
+  - rid: 7677084366919172256
+  - rid: 7677084366919172271
+  - rid: 7677084366919172284
+  - rid: 7677084366919172311
+  - rid: 7677084366919172317
+  - rid: 7677084366919172325
+  - rid: 7677084366919172333
+  - rid: 7677084370181292042
+  - rid: 7677084370181292051
   processorNodes:
   - rid: 7677084342182478515
   - rid: 7677084342182478516
@@ -267,12 +329,34 @@ MonoBehaviour:
   - rid: 7677084347958297576
   - rid: 7677084347958297588
   - rid: 7677084347958297595
+  - rid: 7677084366919172098
+  - rid: 7677084366919172107
+  - rid: 7677084366919172139
+  - rid: 7677084366919172149
+  - rid: 7677084366919172172
+  - rid: 7677084366919172182
+  - rid: 7677084366919172196
+  - rid: 7677084366919172205
+  - rid: 7677084366919172222
+  - rid: 7677084366919172230
+  - rid: 7677084366919172244
+  - rid: 7677084366919172256
+  - rid: 7677084366919172271
+  - rid: 7677084366919172284
+  - rid: 7677084366919172311
+  - rid: 7677084366919172317
+  - rid: 7677084366919172325
+  - rid: 7677084366919172333
+  - rid: 7677084370181292042
+  - rid: 7677084370181292051
   inputNodes:
   - rid: 7677084347958297079
   - rid: 7677084347958297081
   - rid: 7677084347958297102
   - rid: 7677084347958297113
   - rid: 7677084347958297509
+  - rid: 7677084366919172279
+  - rid: 7677084366919172281
   outputNodes: []
   sortedProcessorNodes: []
   inputParameters:
@@ -297,12 +381,17 @@ MonoBehaviour:
       name: Map Objects
       typeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+    - id: 2e731499-644e-46c0-89b8-36313cb3c1ac
+      name: Map Objects Ceiling
+      typeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
     orderedIds:
     - db25dc50-bc17-4a86-9ef5-55aadcf432ee
     - d9369cf3-2904-4608-badc-ab5a83a6dfe6
     - 3ed3070b-2ed0-432f-811f-07a6a585c9b1
     - bca11551-dad4-4fa9-a8e6-67cf5b4d4c51
     - 5620362c-c485-4ed0-b72d-583a8d03960b
+    - 2e731499-644e-46c0-89b8-36313cb3c1ac
     names: []
     typeNames: []
   outputParameters:
@@ -310,7 +399,13 @@ MonoBehaviour:
     orderedIds: []
     names: []
     typeNames: []
-  notes: []
+  notes:
+  - rid: 7677084366919172114
+  - rid: 7677084370181292034
+  - rid: 7677084370181292035
+  - rid: 7677084370181292036
+  - rid: 7677084370181292037
+  - rid: 7677084370181292038
   referenceNodeConnections:
   - rid: 7677084342182477975
   - rid: 7677084347958296594
@@ -334,17 +429,24 @@ MonoBehaviour:
   - rid: 7677084347958297496
   - rid: 7677084347958297498
   - rid: 7677084347958297499
-  - rid: 7677084347958297511
   - rid: 7677084347958297538
   - rid: 7677084347958297583
   - rid: 7677084351077023756
+  - rid: 7677084366919172156
+  - rid: 7677084366919172183
+  - rid: 7677084366919172193
+  - rid: 7677084366919172204
+  - rid: 7677084366919172217
+  - rid: 7677084366919172265
+  - rid: 7677084366919172310
+  - rid: 7677084370181292050
+  - rid: 7677084370181292059
   referenceNodes:
   - rid: 7677084342182478845
   - rid: 7677084347958296593
   - rid: 7677084347958296781
   - rid: 7677084347958296930
   - rid: 7677084347958296997
-  - rid: 7677084347958297002
   - rid: 7677084347958297213
   - rid: 7677084347958297339
   - rid: 7677084347958297341
@@ -355,6 +457,14 @@ MonoBehaviour:
   - rid: 7677084347958297537
   - rid: 7677084347958297582
   - rid: 7677084351077023755
+  - rid: 7677084366919172146
+  - rid: 7677084366919172184
+  - rid: 7677084366919172192
+  - rid: 7677084366919172203
+  - rid: 7677084366919172264
+  - rid: 7677084366919172307
+  - rid: 7677084366919172309
+  - rid: 7677084370181292058
   groupNodes:
   - rid: 7677084347958296698
   - rid: 7677084347958296699
@@ -657,10 +767,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 2830.6667
-          y: -466.6667
+          x: 2824.6667
+          y: -399.33334
           width: 241.33325
-          height: 374.6667
+          height: 374.66666
         note: 
         id: 4f851707-f346-4bc2-afc3-87aa6e4733b5
         providerNode:
@@ -691,10 +801,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3112
-          y: -466.6667
+          x: 3106
+          y: -399.33334
           width: 209.33325
-          height: 278.6667
+          height: 278.66666
         note: 
         id: dd929957-7453-42a5-9c7f-a7755141a706
         providerNode:
@@ -1792,6 +1902,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         connectedInPorts:
         - rid: 7677084342182478649
+        - rid: 7677084366919172177
+        - rid: 7677084366919172189
     - rid: 7677084342182478645
       type: {class: DrawCirclesNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
@@ -1901,7 +2013,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
-        - rid: 7677084342182478694
+        - rid: 7677084366919172175
     - rid: 7677084342182478664
       type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -2064,6 +2176,9 @@ MonoBehaviour:
         - rid: 7677084347958297333
         - rid: 7677084347958297309
         - rid: 7677084347958297528
+        - rid: 7677084366919172187
+        - rid: 7677084366919172208
+        - rid: 7677084366919172247
     - rid: 7677084342182478677
       type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -2098,7 +2213,7 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3666.6667
+          x: 4044.6667
           y: 837.3334
           width: 209.33325
           height: 302.6667
@@ -2152,7 +2267,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084342182478652
+          rid: 7677084366919172178
         isConnectionRequired: 1
     - rid: 7677084342182478695
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -4042,10 +4157,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6426.6665
-          y: 2918
+          x: 7217.3335
+          y: 2957.3335
           width: 224
-          height: 398.66675
+          height: 398.6665
         note: 
         id: ed382580-51f4-49e2-a52d-3b12f5bd5fe7
         providerNode:
@@ -4076,10 +4191,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6262.6665
-          y: 3068
+          x: 7053.3335
+          y: 3145.3335
           width: 78
-          height: 42.666748
+          height: 42.666504
         note: 
         id: 03342f8a-ee0d-4ba6-b8ba-0d7d6bef880c
         outPorts:
@@ -4094,10 +4209,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6271.3335
-          y: 3184
-          width: 69.33301
-          height: 42.666748
+          x: 7062
+          y: 3261.3335
+          width: 69.333496
+          height: 42.666504
         note: 
         id: 20b17e53-6cbc-4d50-872e-e6d4478eda74
         outPorts:
@@ -4112,10 +4227,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6271.3335
-          y: 3245.3335
-          width: 71.33301
-          height: 42.666504
+          x: 7062
+          y: 3322.6667
+          width: 71.333496
+          height: 42.666748
         note: 
         id: f0aa4c1c-f790-47cf-89cd-6c51d90c1a3d
         outPorts:
@@ -4231,7 +4346,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
-        - rid: 7677084347958297505
+        - rid: 7677084366919172142
     - rid: 7677084347958296685
       type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -4430,6 +4545,32 @@ MonoBehaviour:
         - rid: 7677084347958297588
         - rid: 7677084347958297595
         - rid: 7677084351077023745
+        - rid: 7677084366919172096
+        - rid: 7677084366919172098
+        - rid: 7677084366919172105
+        - rid: 7677084366919172139
+        - rid: 7677084366919172149
+        - rid: 7677084366919172157
+        - rid: 7677084366919172159
+        - rid: 7677084366919172182
+        - rid: 7677084366919172194
+        - rid: 7677084366919172196
+        - rid: 7677084366919172205
+        - rid: 7677084366919172218
+        - rid: 7677084366919172220
+        - rid: 7677084366919172222
+        - rid: 7677084366919172228
+        - rid: 7677084366919172230
+        - rid: 7677084366919172244
+        - rid: 7677084366919172256
+        - rid: 7677084366919172262
+        - rid: 7677084366919172266
+        - rid: 7677084366919172268
+        - rid: 7677084366919172284
+        - rid: 7677084366919172297
+        - rid: 7677084366919172299
+        - rid: 7677084366919172300
+        - rid: 7677084366919172305
         referenceNodes:
         - rid: 7677084347958296593
         - rid: 7677084347958297213
@@ -4437,6 +4578,11 @@ MonoBehaviour:
         - rid: 7677084347958297341
         - rid: 7677084347958297537
         - rid: 7677084347958297582
+        - rid: 7677084366919172146
+        - rid: 7677084366919172184
+        - rid: 7677084366919172192
+        - rid: 7677084366919172264
+        - rid: 7677084366919172309
         title: Room Props Generation
         position:
           serializedVersion: 2
@@ -4465,6 +4611,8 @@ MonoBehaviour:
         - rid: 7677084347958296988
         - rid: 7677084347958296990
         - rid: 7677084347958297202
+        - rid: 7677084366919172172
+        - rid: 7677084366919172180
         referenceNodes: []
         title: Enemies Spawn
         position:
@@ -4546,6 +4694,15 @@ MonoBehaviour:
         - rid: 7677084347958297194
         - rid: 7677084347958297196
         - rid: 7677084347958297488
+        - rid: 7677084366919172311
+        - rid: 7677084366919172317
+        - rid: 7677084366919172323
+        - rid: 7677084366919172325
+        - rid: 7677084366919172331
+        - rid: 7677084366919172333
+        - rid: 7677084366919172346
+        - rid: 7677084366919172349
+        - rid: 7677084370181292051
         referenceNodes:
         - rid: 7677084347958296781
         - rid: 7677084347958296930
@@ -4553,18 +4710,18 @@ MonoBehaviour:
         title: Pathways generation
         position:
           serializedVersion: 2
-          x: 2751.9995
-          y: -197.99998
-          width: 1637.3335
-          height: 872.6667
+          x: 2603.333
+          y: -596.66675
+          width: 2664.0002
+          height: 1161.3333
     - rid: 7677084347958296713
       type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3423.3333
-          y: 152.66667
+          x: 3417.3333
+          y: 220
           width: 69.333496
           height: 42.66667
         note: 
@@ -4590,10 +4747,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3372.6667
-          y: -466.6667
+          x: 3366.6667
+          y: -399.33334
           width: 257.33325
-          height: 302.6667
+          height: 302.66666
         note: 
         id: ba84a4b1-5e78-4b2f-bb06-5dc6e25abdb4
         providerNode:
@@ -4671,8 +4828,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3690.6667
-          y: -110
+          x: 3684.6667
+          y: -42.666668
           width: 261.33325
           height: 78.666664
         note: 
@@ -4741,10 +4898,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3630
-          y: 25.999998
+          x: 3624
+          y: 93.33333
           width: 255.33325
-          height: 350.66666
+          height: 350.6667
         note: 
         id: 1fd3cf07-3f6d-4bd5-be4a-94983a86752d
         providerNode:
@@ -4962,10 +5119,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 4078.6667
-          y: -469.33334
+          x: 4072.6667
+          y: -402
           width: 209.33325
-          height: 278.6667
+          height: 278.66666
         providerNode:
           rid: 7677084347958296773
     - rid: 7677084347958296782
@@ -4974,10 +5131,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4422
-          y: -472.6667
+          x: 4416
+          y: -405.33334
           width: 209.3335
-          height: 302.6667
+          height: 302.66666
         note: 
         id: 409a0c45-e2e4-4640-a012-5861ccbc5cd5
         providerNode:
@@ -5051,6 +5208,7 @@ MonoBehaviour:
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
         - rid: 7677084347958296918
+        - rid: 7677084366919172314
     - rid: 7677084347958296788
       type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -5405,10 +5563,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4676
-          y: -466.6667
+          x: 4706.6665
+          y: -248.66666
           width: 209.3335
-          height: 302.6667
+          height: 302.66666
         note: 
         id: 144c6780-4786-4fa0-8bed-87f2420b5e2d
         providerNode:
@@ -5480,16 +5638,17 @@ MonoBehaviour:
           rid: 7677084347958296915
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        connectedInPorts: []
+        connectedInPorts:
+        - rid: 7677084366919172320
     - rid: 7677084347958296930
       type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
         position:
           serializedVersion: 2
-          x: 3780.6667
-          y: -469.33334
+          x: 3774.6667
+          y: -402
           width: 209.33325
-          height: 278.6667
+          height: 278.66666
         providerNode:
           rid: 7677084347958296904
     - rid: 7677084347958296931
@@ -5507,8 +5666,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4212.6665
-          y: -46.666668
+          x: 4206.6665
+          y: 20.666666
           width: 209.3335
           height: 518.6667
         note: 
@@ -5710,10 +5869,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3952
-          y: 91.33333
+          x: 3946
+          y: 158.66667
           width: 152.6665
-          height: 78.666664
+          height: 78.66666
         note: 
         id: c21cfd7a-4b39-4f3d-b31c-b6f7db09263a
         outPorts:
@@ -5737,10 +5896,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3988
-          y: 174
+          x: 3982
+          y: 241.33333
           width: 69.33325
-          height: 42.66667
+          height: 42.666687
         note: 
         id: 627cd06e-2ab1-4d9b-a5d6-4709e6db5ba5
         outPorts:
@@ -5764,8 +5923,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3988
-          y: 246.66667
+          x: 3982
+          y: 314
           width: 63.333252
           height: 42.666656
         note: 
@@ -5791,7 +5950,7 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3480.6667
+          x: 3858.6667
           y: 932
           width: 63.333252
           height: 42.666687
@@ -6000,37 +6159,32 @@ MonoBehaviour:
         - rid: 7677084347958297512
         - rid: 7677084347958297520
         - rid: 7677084347958297522
+        - rid: 7677084366919172271
+        - rid: 7677084366919172279
+        - rid: 7677084366919172281
+        - rid: 7677084370181292042
         referenceNodes:
-        - rid: 7677084347958297002
         - rid: 7677084347958297497
         - rid: 7677084351077023755
+        - rid: 7677084366919172203
+        - rid: 7677084366919172307
+        - rid: 7677084370181292058
         title: Map Export
         position:
           serializedVersion: 2
-          x: 5269.333
-          y: -822.66675
-          width: 1066.6665
-          height: 1216
-    - rid: 7677084347958297002
-      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
-      data:
-        position:
-          serializedVersion: 2
-          x: 5294
-          y: 91.33333
-          width: 210
-          height: 326.6667
-        providerNode:
-          rid: 7677084347958296669
+          x: 6996.666
+          y: -594
+          width: 1505.3335
+          height: 1813.3333
     - rid: 7677084347958297069
       type: {class: TextureToChildGameObjectsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6202.6665
-          y: -767.3333
-          width: 253.3335
+          x: 8223.333
+          y: -520.6667
+          width: 253.33398
           height: 150.66669
         note: 
         id: bfca0725-e461-4182-bc52-0ab822578084
@@ -6045,7 +6199,7 @@ MonoBehaviour:
           typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
             Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
           connectedOut:
-            rid: 7677084347958296684
+            rid: 7677084347958297494
           isConnectionRequired: 1
         prefabSetIn:
           name: Prefab Set
@@ -6152,10 +6306,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5937.3335
-          y: -384.6667
+          x: 7958
+          y: -138
           width: 112
-          height: 42.666687
+          height: 42.666664
         note: 
         id: 407fa37a-8b6a-4f67-9d33-a332af3f644f
         outPorts:
@@ -6182,10 +6336,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5888.6665
-          y: -684
+          x: 7909.3335
+          y: -437.33334
           width: 80
-          height: 42.666687
+          height: 42.666656
         note: 
         id: 0d4694a6-c3ad-4a9d-841b-b135d244ed1b
         outPorts:
@@ -6209,10 +6363,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5986
-          y: -320
+          x: 8006.6665
+          y: -73.333336
           width: 63.333496
-          height: 42.666656
+          height: 42.666668
         note: 
         id: c6847bc4-178a-45db-b794-837d2ebc43a0
         outPorts:
@@ -6233,16 +6387,17 @@ MonoBehaviour:
         - rid: 7677084347958297091
         - rid: 7677084347958297121
         - rid: 7677084347958297508
+        - rid: 7677084366919172277
     - rid: 7677084347958297085
       type: {class: TextureToChildGameObjectsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6202.6665
-          y: -542
-          width: 253.3335
-          height: 150.66669
+          x: 8223.333
+          y: -295.33334
+          width: 253.33398
+          height: 150.66666
         note: 
         id: b16725b9-18b4-4681-87f0-7c7973b161bb
         providerNode:
@@ -6363,10 +6518,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5679.3335
-          y: -580
-          width: 209.33301
-          height: 302.6667
+          x: 7700
+          y: -333.33334
+          width: 209.3335
+          height: 302.66666
         note: 
         id: 9a5f4720-c8c0-46e7-8000-d6d0c3452119
         providerNode:
@@ -6458,10 +6613,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5316.6665
-          y: -424
-          width: 152.66699
-          height: 78.66666
+          x: 7337.3335
+          y: -177.33333
+          width: 152.6665
+          height: 78.666664
         note: 
         id: 0ce198b6-7252-4591-b24a-e41fa434a28a
         outPorts:
@@ -6485,10 +6640,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5911.3335
-          y: -488
-          width: 89.33301
-          height: 42.666656
+          x: 7932
+          y: -241.33333
+          width: 89.333496
+          height: 42.66667
         note: 
         id: aa7480dd-176b-4513-afda-90e0778f3b29
         outPorts:
@@ -6512,10 +6667,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6004.6665
-          y: -131.33333
+          x: 8025.3335
+          y: 115.333336
           width: 90
-          height: 42.666664
+          height: 42.666656
         note: 
         id: 792b505d-f9d3-4129-92c8-4b894b7e1d4b
         outPorts:
@@ -6529,10 +6684,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6202.6665
-          y: -212.66666
-          width: 253.3335
-          height: 150.66666
+          x: 8223.333
+          y: 34
+          width: 253.33398
+          height: 150.66667
         note: 
         id: 6a4d5069-01a2-4af3-9724-d19d3440d271
         providerNode:
@@ -6546,7 +6701,7 @@ MonoBehaviour:
           typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
             Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
           connectedOut:
-            rid: 7677084342182478543
+            rid: 7677084347958297518
           isConnectionRequired: 1
         prefabSetIn:
           name: Prefab Set
@@ -6718,10 +6873,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 2634.6667
-          y: -344
+          x: 2628.6667
+          y: -276.6667
           width: 152.6665
-          height: 78.66666
+          height: 78.66667
         note: 
         id: 49845638-a39d-4985-99c8-7029172ca895
         outPorts:
@@ -6745,10 +6900,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3395.3333
-          y: 52
+          x: 3389.3333
+          y: 119.333336
           width: 152.66675
-          height: 78.666664
+          height: 78.66666
         note: 
         id: 9c02a163-73d0-44cd-b30f-65b5e408cde0
         outPorts:
@@ -6854,9 +7009,9 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6216.6665
-          y: 3316.6667
-          width: 152.66699
+          x: 7007.3335
+          y: 3394
+          width: 152.6665
           height: 78.66675
         note: 
         id: 9f289f64-dd8d-4b04-9348-a6eed8063f73
@@ -6880,8 +7035,8 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 6084.6665
-          y: 2450
+          x: 6859.3335
+          y: 2668.6667
           width: 210
           height: 326.66675
         providerNode:
@@ -7804,19 +7959,19 @@ MonoBehaviour:
         title: Floor pattern
         position:
           serializedVersion: 2
-          x: 3527.3625
-          y: -1378.2709
-          width: 1084.6667
-          height: 710.00006
+          x: 3533.333
+          y: -1484.0001
+          width: 1403.3333
+          height: 709.3333
     - rid: 7677084347958297426
       type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
         position:
           serializedVersion: 2
-          x: 3552.6667
-          y: -1305.3334
+          x: 3558.6667
+          y: -1410.6667
           width: 209.33325
-          height: 278.6667
+          height: 278.66675
         providerNode:
           rid: 7677084347958296932
     - rid: 7677084347958297427
@@ -7825,10 +7980,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3945.3333
-          y: -1305.3334
+          x: 3951.3333
+          y: -1410.6667
           width: 209.33325
-          height: 302.6667
+          height: 302.66675
         note: 
         id: 520f3516-170a-4946-a58e-9f1cea1a00d4
         providerNode:
@@ -7929,8 +8084,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 3774
-          y: -1192
+          x: 3780
+          y: -1297.3334
           width: 152.66675
           height: 78.666626
         note: 
@@ -7956,10 +8111,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4377.3335
-          y: -1286
+          x: 4383.3335
+          y: -1391.3334
           width: 209.33301
-          height: 518.6666
+          height: 518.6667
         note: 
         id: 1753128f-c2b2-4c3f-bc1b-542232ec77f5
         providerNode:
@@ -8158,8 +8313,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4254
-          y: -1048
+          x: 4260
+          y: -1153.3334
           width: 69.333496
           height: 42.666626
         note: 
@@ -8185,8 +8340,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4260
-          y: -1200.6667
+          x: 4266
+          y: -1306.6667
           width: 63.333496
           height: 42.666748
         note: 
@@ -8211,10 +8366,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 3564.6667
-          y: -972.6666
+          x: 3570.6667
+          y: -1078.6667
           width: 209.33325
-          height: 278.66663
+          height: 278.6667
         providerNode:
           rid: 7677084347958296904
     - rid: 7677084347958297473
@@ -8232,10 +8387,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4696
-          y: -1266.6667
+          x: 4702
+          y: -1372.6667
           width: 209.3335
-          height: 302.6667
+          height: 302.66675
         note: 
         id: f7f69ceb-2e6d-4304-89fa-f450ce079c76
         providerNode:
@@ -8327,8 +8482,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4712.6665
-          y: -13.333334
+          x: 4974
+          y: 158.66667
           width: 209.3335
           height: 326.66666
         note: 
@@ -8424,10 +8579,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 4471.3335
-          y: 152.66667
+          x: 4465.3335
+          y: 220
           width: 209.33301
-          height: 302.66666
+          height: 302.6667
         providerNode:
           rid: 7677084347958297474
     - rid: 7677084347958297496
@@ -8444,9 +8599,9 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 5302.6665
-          y: -762.6666
-          width: 209.3335
+          x: 7323.3335
+          y: -516
+          width: 209.33301
           height: 278.66666
         providerNode:
           rid: 7677084347958297488
@@ -8474,8 +8629,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4184
-          y: -1152.6667
+          x: 4190
+          y: -1258.6667
           width: 152.6665
           height: 78.66675
         note: 
@@ -8502,10 +8657,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6202.6665
-          y: 102
-          width: 253.3335
-          height: 150.66666
+          x: 8223.333
+          y: 348.66666
+          width: 253.33398
+          height: 150.66669
         note: 
         id: ca099ca1-1a8c-4c02-bc92-25c0ee21a363
         providerNode:
@@ -8519,7 +8674,7 @@ MonoBehaviour:
           typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
             Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
           connectedOut:
-            rid: 7677084347958296684
+            rid: 7677084366919172202
           isConnectionRequired: 1
         prefabSetIn:
           name: Prefab Set
@@ -8586,7 +8741,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084347958296684
+          rid: 7677084366919172202
         isConnectionRequired: 1
     - rid: 7677084347958297506
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -8626,10 +8781,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5888.6665
-          y: 152
-          width: 122.66699
-          height: 42.66667
+          x: 7909.3335
+          y: 398.66666
+          width: 122.666504
+          height: 42.666656
         note: 
         id: cb09b068-6807-4382-b932-86857e0b4aee
         outPorts:
@@ -8647,25 +8802,16 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         connectedInPorts:
         - rid: 7677084347958297507
-    - rid: 7677084347958297511
-      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
-      data:
-        inPort:
-          rid: 7677084347958297505
-        outPort:
-          rid: 7677084347958296684
-        referenceNode:
-          rid: 7677084347958297002
     - rid: 7677084347958297512
       type: {class: ReplaceColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5752.6665
-          y: -255.33333
-          width: 209.3335
-          height: 326.66666
+          x: 7773.3335
+          y: -8.666667
+          width: 209.33301
+          height: 326.6667
         note: 
         id: 9f78020d-c22a-4e45-a0ab-fe49d6f0f82c
         providerNode:
@@ -8759,10 +8905,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5541.3335
-          y: -131.33333
+          x: 7562
+          y: 115.333336
           width: 152.6665
-          height: 78.66667
+          height: 78.66666
         note: 
         id: e017e717-406d-487b-be53-87bfa342f2ee
         outPorts:
@@ -8786,8 +8932,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5541.3335
-          y: -37.333336
+          x: 7562
+          y: 209.33334
           width: 152.6665
           height: 78.66667
         note: 
@@ -8949,6 +9095,7 @@ MonoBehaviour:
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
         - rid: 7677084347958297553
+        - rid: 7677084366919172152
     - rid: 7677084347958297535
       type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -9020,10 +9167,10 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 4928.6665
-          y: 3079.3335
-          width: 99.333496
-          height: 42.666504
+          x: 4947.3335
+          y: 3156.6667
+          width: 99.33301
+          height: 42.666748
         note: 
         id: e51c6d8a-1887-4eac-8771-11d45a0ac96d
         outPorts:
@@ -9043,9 +9190,8 @@ MonoBehaviour:
         connectedInPorts:
         - rid: 7677084347958297531
         - rid: 7677084347958297554
-        - rid: 7677084347958297555
-        - rid: 7677084347958297554
         - rid: 7677084347958297592
+        - rid: 7677084347958297555
     - rid: 7677084347958297550
       type: {class: DrawOutlineNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
@@ -9144,7 +9290,7 @@ MonoBehaviour:
         typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
         connectedOut:
-          rid: 7677084347958297542
+          rid: 7677084366919172097
         isConnectionRequired: 0
     - rid: 7677084347958297555
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -9247,7 +9393,8 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
-        - rid: 7677084347958297591
+        - rid: 7677084366919172101
+        - rid: 7677084366919172110
     - rid: 7677084347958297566
       type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
@@ -9411,8 +9558,8 @@ MonoBehaviour:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 5902.6665
-          y: 3211.3335
+          x: 6154
+          y: 2651.3335
           width: 209.3335
           height: 302.6665
         note: 
@@ -9468,7 +9615,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084347958297564
+          rid: 7677084366919172104
         isConnectionRequired: 1
     - rid: 7677084347958297592
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -9498,17 +9645,16 @@ MonoBehaviour:
           rid: 7677084347958297588
         typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        connectedInPorts:
-        - rid: 7677084347958297598
+        connectedInPorts: []
     - rid: 7677084347958297595
       type: {class: InvertMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6166.6665
-          y: 3424.6667
-          width: 209.3335
+          x: 6609.3335
+          y: 3036.6667
+          width: 209.33301
           height: 302.66675
         note: 
         id: 403f2866-0773-4a2e-b1f1-0a8702b6c442
@@ -9560,7 +9706,7 @@ MonoBehaviour:
         typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedOut:
-          rid: 7677084347958297594
+          rid: 7677084366919172113
         isConnectionRequired: 1
     - rid: 7677084347958297599
       type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -9583,15 +9729,16 @@ MonoBehaviour:
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         connectedInPorts:
         - rid: 7677084347958296679
+        - rid: 7677084366919172288
     - rid: 7677084351077023745
       type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
       data:
         graph: {fileID: 0}
         rect:
           serializedVersion: 2
-          x: 6012.6665
-          y: 3572.6667
-          width: 87.333496
+          x: 6456
+          y: 3326
+          width: 86.666504
           height: 60.666748
         note: 
         id: 6f756520-eea1-45ce-b128-13968760b10a
@@ -9616,10 +9763,10 @@ MonoBehaviour:
       data:
         position:
           serializedVersion: 2
-          x: 5276.6665
-          y: -249.33333
-          width: 264.667
-          height: 278.66666
+          x: 7297.3335
+          y: -2.666668
+          width: 264.6665
+          height: 278.6667
         providerNode:
           rid: 7677084347958296748
     - rid: 7677084351077023756
@@ -9631,3 +9778,3009 @@ MonoBehaviour:
           rid: 7677084347958296755
         referenceNode:
           rid: 7677084351077023755
+    - rid: 7677084366919172096
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5457.3335
+          y: 3079.3335
+          width: 99.33301
+          height: 42.666504
+        note: 
+        id: dc2776b2-2a61-4907-bcd1-159ad80c976e
+        outPorts:
+        - rid: 7677084366919172097
+        constTypeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedVal: '{"r":0,"g":0,"b":0,"a":255}'
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172097
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172096
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084347958297554
+        - rid: 7677084366919172102
+        - rid: 7677084366919172111
+    - rid: 7677084366919172098
+      type: {class: ReplaceColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5865.3335
+          y: 2650.6667
+          width: 209.33301
+          height: 326.66675
+        note: 
+        id: 5fcf07ab-3674-400f-b5cc-e66a061281e6
+        providerNode:
+          rid: 7677084366919172099
+        consumerNode:
+          rid: 7677084366919172100
+        textureIn:
+          rid: 7677084366919172101
+        findColorIn:
+          rid: 7677084366919172102
+        replaceColorIn:
+          rid: 7677084366919172103
+        textureOut:
+          rid: 7677084366919172104
+    - rid: 7677084366919172099
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 3fc5b338-6206-4f8b-9555-f0ff8e4a4d80
+        outPorts:
+        - rid: 7677084366919172104
+    - rid: 7677084366919172100
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 05e48492-eb6e-4aa5-81fe-22da261556be
+        inPorts:
+        - rid: 7677084366919172101
+        - rid: 7677084366919172102
+        - rid: 7677084366919172103
+    - rid: 7677084366919172101
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172098
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084347958297564
+        isConnectionRequired: 1
+    - rid: 7677084366919172102
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Find
+        owner:
+          rid: 7677084366919172098
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172097
+        isConnectionRequired: 0
+    - rid: 7677084366919172103
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Replace
+        owner:
+          rid: 7677084366919172098
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172106
+        isConnectionRequired: 0
+    - rid: 7677084366919172104
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172098
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084347958297591
+    - rid: 7677084366919172105
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5755.3335
+          y: 2781.3335
+          width: 99.33301
+          height: 42.666504
+        note: 
+        id: f647548c-7327-40de-9a7e-5cfb33cc0e84
+        outPorts:
+        - rid: 7677084366919172106
+        constTypeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedVal: '{"r":0,"g":137,"b":255,"a":255}'
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172106
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172105
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172103
+    - rid: 7677084366919172107
+      type: {class: ExtractColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5958
+          y: 3384
+          width: 209.3335
+          height: 302.66675
+        note: 
+        id: 375e99be-e705-4589-80ad-9f7877fba5ea
+        providerNode:
+          rid: 7677084366919172108
+        consumerNode:
+          rid: 7677084366919172109
+        textureIn:
+          rid: 7677084366919172110
+        colorToExtractIn:
+          rid: 7677084366919172111
+        textureOut:
+          rid: 7677084366919172112
+        maskOut:
+          rid: 7677084366919172113
+    - rid: 7677084366919172108
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 496756e6-05f7-4c65-83a9-259e85101d4f
+        outPorts:
+        - rid: 7677084366919172112
+        - rid: 7677084366919172113
+    - rid: 7677084366919172109
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 70a33069-7318-4c03-88ee-a72ac842c247
+        inPorts:
+        - rid: 7677084366919172110
+        - rid: 7677084366919172111
+    - rid: 7677084366919172110
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172107
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084347958297564
+        isConnectionRequired: 1
+    - rid: 7677084366919172111
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Color To Extract
+        owner:
+          rid: 7677084366919172107
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172097
+        isConnectionRequired: 0
+    - rid: 7677084366919172112
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172107
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172113
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172107
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084347958297598
+    - rid: 7677084366919172114
+      type: {class: Note, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 6610
+          y: 2921.3335
+          width: 250
+          height: 100
+        title: Props Generation Floor
+        contents: 'Position of each Prop in the Floor
+
+'
+        theme: 0
+        fontSize: 0
+    - rid: 7677084366919172139
+      type: {class: StampNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7628.6665
+          y: 3098
+          width: 209.3335
+          height: 326.66675
+        note: 
+        id: 2d40b156-2315-431a-8c0d-1344776c82b5
+        providerNode:
+          rid: 7677084366919172140
+        consumerNode:
+          rid: 7677084366919172141
+        textureIn:
+          rid: 7677084366919172142
+        stampIn:
+          rid: 7677084366919172143
+        offsetIn:
+          rid: 7677084366919172144
+        textureOut:
+          rid: 7677084366919172145
+    - rid: 7677084366919172140
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: d7e8a725-b178-46b8-b126-cdcb43a4f180
+        outPorts:
+        - rid: 7677084366919172145
+    - rid: 7677084366919172141
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 964b2a6a-6f42-488f-8bbc-8d6eb31772b0
+        inPorts:
+        - rid: 7677084366919172142
+        - rid: 7677084366919172143
+        - rid: 7677084366919172144
+    - rid: 7677084366919172142
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172139
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084347958296684
+        isConnectionRequired: 1
+    - rid: 7677084366919172143
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Stamp
+        owner:
+          rid: 7677084366919172139
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172155
+        isConnectionRequired: 1
+    - rid: 7677084366919172144
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Offset
+        owner:
+          rid: 7677084366919172139
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172145
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172139
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172199
+    - rid: 7677084366919172146
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7007.3335
+          y: 3501.3335
+          width: 210
+          height: 326.6665
+        providerNode:
+          rid: 7677084347958297525
+    - rid: 7677084366919172149
+      type: {class: ReplaceColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7282.6665
+          y: 3501.3335
+          width: 209.3335
+          height: 326.6665
+        note: 
+        id: 35ef22ae-5479-4a1f-9d6c-bb71d55f6c27
+        providerNode:
+          rid: 7677084366919172150
+        consumerNode:
+          rid: 7677084366919172151
+        textureIn:
+          rid: 7677084366919172152
+        findColorIn:
+          rid: 7677084366919172153
+        replaceColorIn:
+          rid: 7677084366919172154
+        textureOut:
+          rid: 7677084366919172155
+    - rid: 7677084366919172150
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 5fdc0dc5-80af-4ee4-a0e5-a40023d53b6c
+        outPorts:
+        - rid: 7677084366919172155
+    - rid: 7677084366919172151
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: acae18d2-0aaf-41b4-98b8-bb4c23572311
+        inPorts:
+        - rid: 7677084366919172152
+        - rid: 7677084366919172153
+        - rid: 7677084366919172154
+    - rid: 7677084366919172152
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172149
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084347958297534
+        isConnectionRequired: 1
+    - rid: 7677084366919172153
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Find
+        owner:
+          rid: 7677084366919172149
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172158
+        isConnectionRequired: 0
+    - rid: 7677084366919172154
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Replace
+        owner:
+          rid: 7677084366919172149
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172160
+        isConnectionRequired: 0
+    - rid: 7677084366919172155
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172149
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172143
+    - rid: 7677084366919172156
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084366919172152
+        outPort:
+          rid: 7677084347958297534
+        referenceNode:
+          rid: 7677084366919172146
+    - rid: 7677084366919172157
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7144
+          y: 3860
+          width: 99.333496
+          height: 42.666748
+        note: 
+        id: dd2a5437-a93d-4941-adec-1c1127d08d31
+        outPorts:
+        - rid: 7677084366919172158
+        constTypeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedVal: '{"r":0,"g":137,"b":255,"a":255}'
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172158
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172157
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172153
+    - rid: 7677084366919172159
+      type: {class: NamedColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7084
+          y: 3920
+          width: 159.3335
+          height: 78.66675
+        note: 
+        id: fa47f52e-4abf-45a1-83d4-33ca5771c1f2
+        outPorts:
+        - rid: 7677084366919172160
+        namedColorId: 4ac16888-4dfc-4bf6-bf98-80114136a03f
+        colorOut:
+          rid: 7677084366919172160
+    - rid: 7677084366919172160
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172159
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172154
+    - rid: 7677084366919172172
+      type: {class: DrawPointsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 3649.3333
+          y: 856
+          width: 209.3335
+          height: 326.6667
+        note: 
+        id: 80b54c17-6e86-4353-99fd-3067794999bc
+        providerNode:
+          rid: 7677084366919172173
+        consumerNode:
+          rid: 7677084366919172174
+        textureIn:
+          rid: 7677084366919172175
+        drawColorIn:
+          rid: 7677084366919172176
+        pointsIn:
+          rid: 7677084366919172177
+        textureOut:
+          rid: 7677084366919172178
+        maskOut:
+          rid: 7677084366919172179
+    - rid: 7677084366919172173
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: fd2457c9-e76d-472a-b7b3-d2f5f96bb66d
+        outPorts:
+        - rid: 7677084366919172178
+        - rid: 7677084366919172179
+    - rid: 7677084366919172174
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 8cf19976-3de5-4458-9975-ffc00dc6d8e0
+        inPorts:
+        - rid: 7677084366919172175
+        - rid: 7677084366919172176
+        - rid: 7677084366919172177
+    - rid: 7677084366919172175
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172172
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478652
+        isConnectionRequired: 1
+    - rid: 7677084366919172176
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 7677084366919172172
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172181
+        isConnectionRequired: 0
+    - rid: 7677084366919172177
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Points
+        owner:
+          rid: 7677084366919172172
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478631
+        isConnectionRequired: 1
+    - rid: 7677084366919172178
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172172
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084342182478694
+    - rid: 7677084366919172179
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172172
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172180
+      type: {class: TransparentColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 3480.6667
+          y: 974.6667
+          width: 151.33325
+          height: 42.666626
+        note: 
+        id: 0c86d3ba-7e1d-45eb-9d00-7a25273d1c24
+        outPorts:
+        - rid: 7677084366919172181
+        colorOut:
+          rid: 7677084366919172181
+    - rid: 7677084366919172181
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172180
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172176
+    - rid: 7677084366919172182
+      type: {class: DrawPointsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7712
+          y: 3972
+          width: 209.3335
+          height: 326.66675
+        note: 
+        id: b730e42c-8b6c-4d83-b597-0f26c698cc3c
+        providerNode:
+          rid: 7677084366919172185
+        consumerNode:
+          rid: 7677084366919172186
+        textureIn:
+          rid: 7677084366919172187
+        drawColorIn:
+          rid: 7677084366919172188
+        pointsIn:
+          rid: 7677084366919172189
+        textureOut:
+          rid: 7677084366919172190
+        maskOut:
+          rid: 7677084366919172191
+    - rid: 7677084366919172183
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084366919172189
+        outPort:
+          rid: 7677084342182478631
+        referenceNode:
+          rid: 7677084366919172184
+    - rid: 7677084366919172184
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7386
+          y: 4344
+          width: 211.3335
+          height: 78.666504
+        providerNode:
+          rid: 7677084342182478627
+    - rid: 7677084366919172185
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 199090ae-d5e5-4cf7-bd00-e8e35ec1f65e
+        outPorts:
+        - rid: 7677084366919172190
+        - rid: 7677084366919172191
+    - rid: 7677084366919172186
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 81a46a3a-857f-4059-a07c-31472694863b
+        inPorts:
+        - rid: 7677084366919172187
+        - rid: 7677084366919172188
+        - rid: 7677084366919172189
+    - rid: 7677084366919172187
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172182
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478676
+        isConnectionRequired: 1
+    - rid: 7677084366919172188
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 7677084366919172182
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172219
+        isConnectionRequired: 0
+    - rid: 7677084366919172189
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Points
+        owner:
+          rid: 7677084366919172182
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478631
+        isConnectionRequired: 1
+    - rid: 7677084366919172190
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172182
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172233
+    - rid: 7677084366919172191
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172182
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172225
+    - rid: 7677084366919172192
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7355.3335
+          y: 4020
+          width: 209.33301
+          height: 278.66675
+        providerNode:
+          rid: 7677084342182478670
+    - rid: 7677084366919172193
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084366919172187
+        outPort:
+          rid: 7677084342182478676
+        referenceNode:
+          rid: 7677084366919172192
+    - rid: 7677084366919172194
+      type: {class: NamedColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8017.3335
+          y: 3915.3335
+          width: 168.6665
+          height: 78.666504
+        note: 
+        id: a29f491c-7134-4574-b2e5-a735419503c2
+        outPorts:
+        - rid: 7677084366919172195
+        namedColorId: a0b8c0b9-66de-4f6c-987d-63acf0816cb3
+        colorOut:
+          rid: 7677084366919172195
+    - rid: 7677084366919172195
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172194
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172211
+    - rid: 7677084366919172196
+      type: {class: StampNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8547.333
+          y: 3424.6667
+          width: 209.33398
+          height: 326.66675
+        note: 
+        id: 496c5d63-add4-4c1e-854b-f85e75b96391
+        providerNode:
+          rid: 7677084366919172197
+        consumerNode:
+          rid: 7677084366919172198
+        textureIn:
+          rid: 7677084366919172199
+        stampIn:
+          rid: 7677084366919172200
+        offsetIn:
+          rid: 7677084366919172201
+        textureOut:
+          rid: 7677084366919172202
+    - rid: 7677084366919172197
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 7d82a279-7ffe-4603-a2e2-9c7d61512faa
+        outPorts:
+        - rid: 7677084366919172202
+    - rid: 7677084366919172198
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 46542897-8414-4848-9363-13579116686e
+        inPorts:
+        - rid: 7677084366919172199
+        - rid: 7677084366919172200
+        - rid: 7677084366919172201
+    - rid: 7677084366919172199
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172196
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172145
+        isConnectionRequired: 1
+    - rid: 7677084366919172200
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Stamp
+        owner:
+          rid: 7677084366919172196
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172214
+        isConnectionRequired: 1
+    - rid: 7677084366919172201
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Offset
+        owner:
+          rid: 7677084366919172196
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172202
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172196
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084347958297505
+    - rid: 7677084366919172203
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7313.3335
+          y: 360
+          width: 209.33301
+          height: 278.66666
+        providerNode:
+          rid: 7677084366919172196
+    - rid: 7677084366919172204
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084347958297505
+        outPort:
+          rid: 7677084366919172202
+        referenceNode:
+          rid: 7677084366919172203
+    - rid: 7677084366919172205
+      type: {class: RandomlyFillTextureNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8243.333
+          y: 3945.3335
+          width: 224
+          height: 398.66675
+        note: 
+        id: 53e39e83-ae11-4a0f-aba0-8969d566f522
+        providerNode:
+          rid: 7677084366919172206
+        consumerNode:
+          rid: 7677084366919172207
+        textureIn:
+          rid: 7677084366919172208
+        maskIn:
+          rid: 7677084366919172209
+        fillPercentageIn:
+          rid: 7677084366919172210
+        fillColorIn:
+          rid: 7677084366919172211
+        minPlacementsIn:
+          rid: 7677084366919172212
+        maxPlacementsIn:
+          rid: 7677084366919172213
+        textureOut:
+          rid: 7677084366919172214
+        maskOut:
+          rid: 7677084366919172215
+        placementsOut:
+          rid: 7677084366919172216
+    - rid: 7677084366919172206
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 4437ea0a-2fad-4bf3-bfeb-6cd912489353
+        outPorts:
+        - rid: 7677084366919172214
+        - rid: 7677084366919172215
+        - rid: 7677084366919172216
+    - rid: 7677084366919172207
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 41a61e50-cfed-4758-bf14-ca9b132a0442
+        inPorts:
+        - rid: 7677084366919172208
+        - rid: 7677084366919172209
+        - rid: 7677084366919172210
+        - rid: 7677084366919172211
+        - rid: 7677084366919172212
+        - rid: 7677084366919172213
+    - rid: 7677084366919172208
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172205
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478676
+        isConnectionRequired: 1
+    - rid: 7677084366919172209
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172205
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172227
+        isConnectionRequired: 0
+    - rid: 7677084366919172210
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Fill Percentage
+        owner:
+          rid: 7677084366919172205
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172221
+        isConnectionRequired: 0
+    - rid: 7677084366919172211
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 7677084366919172205
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172195
+        isConnectionRequired: 0
+    - rid: 7677084366919172212
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Min. placements
+        owner:
+          rid: 7677084366919172205
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172213
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Max. placements
+        owner:
+          rid: 7677084366919172205
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172214
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172205
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172200
+    - rid: 7677084366919172215
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172205
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172234
+    - rid: 7677084366919172216
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Placements
+        owner:
+          rid: 7677084366919172205
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172217
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084366919172208
+        outPort:
+          rid: 7677084342182478676
+        referenceNode:
+          rid: 7677084366919172192
+    - rid: 7677084366919172218
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7587.3335
+          y: 3961.3335
+          width: 99.33301
+          height: 42.666504
+        note: 
+        id: 8c153d14-1d6f-46ad-960d-11685825c40a
+        outPorts:
+        - rid: 7677084366919172219
+        constTypeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedVal: '{"r":128,"g":0,"b":255,"a":255}'
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172219
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172218
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172188
+    - rid: 7677084366919172220
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8114.6665
+          y: 3838.6667
+          width: 71.333496
+          height: 42.666748
+        note: 
+        id: 66aa4696-e49a-4568-8177-657757c28cac
+        outPorts:
+        - rid: 7677084366919172221
+        constTypeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 60
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172221
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172220
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172210
+    - rid: 7677084366919172222
+      type: {class: InvertMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7976.6665
+          y: 4078.6667
+          width: 209.3335
+          height: 302.6665
+        note: 
+        id: 91db408b-b2fd-491a-b27c-cef8807b76cc
+        providerNode:
+          rid: 7677084366919172223
+        consumerNode:
+          rid: 7677084366919172224
+        maskIn:
+          rid: 7677084366919172225
+        boundsIn:
+          rid: 7677084366919172226
+        maskOut:
+          rid: 7677084366919172227
+    - rid: 7677084366919172223
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 70e9f955-1530-4c42-bf44-837a8fb8af9c
+        outPorts:
+        - rid: 7677084366919172227
+    - rid: 7677084366919172224
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: a1f13b60-6f63-4f19-a613-a04c765e0e36
+        inPorts:
+        - rid: 7677084366919172225
+        - rid: 7677084366919172226
+    - rid: 7677084366919172225
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172222
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172191
+        isConnectionRequired: 1
+    - rid: 7677084366919172226
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Bounds
+        owner:
+          rid: 7677084366919172222
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172229
+        isConnectionRequired: 1
+    - rid: 7677084366919172227
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Inverted Mask
+        owner:
+          rid: 7677084366919172222
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172209
+    - rid: 7677084366919172228
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7834
+          y: 4344
+          width: 87.333496
+          height: 60.666504
+        note: 
+        id: 89a1485c-f4cd-49b8-b790-c6bacacc84ae
+        outPorts:
+        - rid: 7677084366919172229
+        constTypeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedVal: 29,29
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172229
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172228
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172226
+    - rid: 7677084366919172230
+      type: {class: ApplyMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8547.333
+          y: 3961.3335
+          width: 209.33398
+          height: 302.66675
+        note: 
+        id: 0c11fdd7-d5f2-48e2-a1b6-677d265c190d
+        providerNode:
+          rid: 7677084366919172231
+        consumerNode:
+          rid: 7677084366919172232
+        textureIn:
+          rid: 7677084366919172233
+        maskIn:
+          rid: 7677084366919172234
+        textureOut:
+          rid: 7677084366919172235
+    - rid: 7677084366919172231
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: a1973d9f-ace2-4e84-8594-432d03bd21c8
+        outPorts:
+        - rid: 7677084366919172235
+    - rid: 7677084366919172232
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 159aa5a9-8e0b-4062-8c95-81605d3af384
+        inPorts:
+        - rid: 7677084366919172233
+        - rid: 7677084366919172234
+    - rid: 7677084366919172233
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172230
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172190
+        isConnectionRequired: 1
+    - rid: 7677084366919172234
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172230
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172215
+        isConnectionRequired: 1
+    - rid: 7677084366919172235
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172230
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172259
+    - rid: 7677084366919172244
+      type: {class: RandomlyFillTextureNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9108.667
+          y: 3961.3335
+          width: 224
+          height: 398.66675
+        note: 
+        id: 36e4e3af-bb7e-4809-8653-581ecbc9f806
+        providerNode:
+          rid: 7677084366919172245
+        consumerNode:
+          rid: 7677084366919172246
+        textureIn:
+          rid: 7677084366919172247
+        maskIn:
+          rid: 7677084366919172248
+        fillPercentageIn:
+          rid: 7677084366919172249
+        fillColorIn:
+          rid: 7677084366919172250
+        minPlacementsIn:
+          rid: 7677084366919172251
+        maxPlacementsIn:
+          rid: 7677084366919172252
+        textureOut:
+          rid: 7677084366919172253
+        maskOut:
+          rid: 7677084366919172254
+        placementsOut:
+          rid: 7677084366919172255
+    - rid: 7677084366919172245
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 88d68415-becd-4800-973a-9a6b7fd42c36
+        outPorts:
+        - rid: 7677084366919172253
+        - rid: 7677084366919172254
+        - rid: 7677084366919172255
+    - rid: 7677084366919172246
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 56dfec37-844b-497e-8403-2eaa812cd175
+        inPorts:
+        - rid: 7677084366919172247
+        - rid: 7677084366919172248
+        - rid: 7677084366919172249
+        - rid: 7677084366919172250
+        - rid: 7677084366919172251
+        - rid: 7677084366919172252
+    - rid: 7677084366919172247
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172244
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084342182478676
+        isConnectionRequired: 1
+    - rid: 7677084366919172248
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172244
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172261
+        isConnectionRequired: 0
+    - rid: 7677084366919172249
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Fill Percentage
+        owner:
+          rid: 7677084366919172244
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172267
+        isConnectionRequired: 0
+    - rid: 7677084366919172250
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 7677084366919172244
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172269
+        isConnectionRequired: 0
+    - rid: 7677084366919172251
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Min. placements
+        owner:
+          rid: 7677084366919172244
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172252
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Max. placements
+        owner:
+          rid: 7677084366919172244
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172253
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172244
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172287
+    - rid: 7677084366919172254
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172244
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172255
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Placements
+        owner:
+          rid: 7677084366919172244
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172256
+      type: {class: TextureToMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8809.333
+          y: 3961.3335
+          width: 209.33398
+          height: 302.66675
+        note: 
+        id: d3790820-613d-4dd9-a93a-30f9a39affd8
+        providerNode:
+          rid: 7677084366919172257
+        consumerNode:
+          rid: 7677084366919172258
+        textureIn:
+          rid: 7677084366919172259
+        inverseIn:
+          rid: 7677084366919172260
+        maskOut:
+          rid: 7677084366919172261
+    - rid: 7677084366919172257
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 1a91cb07-ed18-4e4f-9d8d-dc2b8836195e
+        outPorts:
+        - rid: 7677084366919172261
+    - rid: 7677084366919172258
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: b3522568-ecc5-4a1f-8b67-b971d08f2bf2
+        inPorts:
+        - rid: 7677084366919172259
+        - rid: 7677084366919172260
+    - rid: 7677084366919172259
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172256
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172235
+        isConnectionRequired: 1
+    - rid: 7677084366919172260
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Inverse?
+        owner:
+          rid: 7677084366919172256
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172263
+        isConnectionRequired: 0
+    - rid: 7677084366919172261
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172256
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172248
+    - rid: 7677084366919172262
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8725.333
+          y: 4317.333
+          width: 63.333984
+          height: 42.666992
+        note: 
+        id: e2f9aa14-d170-4877-83c4-592b926e36d7
+        outPorts:
+        - rid: 7677084366919172263
+        constTypeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: True
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172263
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172262
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172260
+    - rid: 7677084366919172264
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 8865.333
+          y: 4317.333
+          width: 209.33398
+          height: 278.667
+        providerNode:
+          rid: 7677084342182478670
+    - rid: 7677084366919172265
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084366919172247
+        outPort:
+          rid: 7677084342182478676
+        referenceNode:
+          rid: 7677084366919172264
+    - rid: 7677084366919172266
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9018.667
+          y: 4122
+          width: 78
+          height: 42.666504
+        note: 
+        id: 873c1489-07d5-48d9-86a2-28d8c39ee6a6
+        outPorts:
+        - rid: 7677084366919172267
+        constTypeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 100
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172267
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172266
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172249
+    - rid: 7677084366919172268
+      type: {class: NamedColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8906
+          y: 3860
+          width: 168.66699
+          height: 78.66675
+        note: 
+        id: 93c9bf37-c04d-4708-b512-d61cbeaf85cc
+        outPorts:
+        - rid: 7677084366919172269
+        namedColorId: 9f370669-0417-4d17-a04b-bf97ad19f720
+        colorOut:
+          rid: 7677084366919172269
+    - rid: 7677084366919172269
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172268
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172250
+    - rid: 7677084366919172271
+      type: {class: TextureToChildGameObjectsNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 8223.333
+          y: 678
+          width: 253.33398
+          height: 150.66669
+        note: 
+        id: 92d181ef-a169-4bd1-93df-51563bf15e5d
+        providerNode:
+          rid: 7677084366919172272
+        consumerNode:
+          rid: 7677084366919172273
+        textureIn:
+          name: Texture
+          owner:
+            rid: 7677084366919172271
+          typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          connectedOut:
+            rid: 7677084370181292048
+          isConnectionRequired: 1
+        prefabSetIn:
+          name: Prefab Set
+          owner:
+            rid: 7677084366919172271
+          typeName: InsaneScatterbrain.MapGraph.PrefabSet, InsaneScatterbrain.MapGraph,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          connectedOut:
+            rid: 7677084366919172280
+          isConnectionRequired: 1
+        parentIn:
+          name: Parent
+          owner:
+            rid: 7677084366919172271
+          typeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          connectedOut:
+            rid: 7677084366919172282
+          isConnectionRequired: 1
+        useXzPlaneIn:
+          name: Use XZ Plane
+          owner:
+            rid: 7677084366919172271
+          typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          connectedOut:
+            rid: 7677084347958297084
+          isConnectionRequired: 0
+    - rid: 7677084366919172272
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 8064800d-3a34-45d0-8ff3-536d472d3bf2
+        outPorts: []
+    - rid: 7677084366919172273
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 7f8f35c0-ae17-4027-af93-9d878487027a
+        inPorts:
+        - rid: 7677084366919172274
+        - rid: 7677084366919172275
+        - rid: 7677084366919172276
+        - rid: 7677084366919172277
+    - rid: 7677084366919172274
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172271
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084370181292048
+        isConnectionRequired: 1
+    - rid: 7677084366919172275
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Prefab Set
+        owner:
+          rid: 7677084366919172271
+        typeName: InsaneScatterbrain.MapGraph.PrefabSet, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172280
+        isConnectionRequired: 1
+    - rid: 7677084366919172276
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Parent
+        owner:
+          rid: 7677084366919172271
+        typeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172282
+        isConnectionRequired: 1
+    - rid: 7677084366919172277
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Use XZ Plane
+        owner:
+          rid: 7677084366919172271
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084347958297084
+        isConnectionRequired: 0
+    - rid: 7677084366919172279
+      type: {class: InputNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7883.3335
+          y: 638.6667
+          width: 112
+          height: 42.666687
+        note: 
+        id: 27118362-23d5-4dc1-8d5e-9e5710d5e71d
+        outPorts:
+        - rid: 7677084366919172280
+        inputParameterId: db25dc50-bc17-4a86-9ef5-55aadcf432ee
+        inputTypeName: InsaneScatterbrain.MapGraph.PrefabSet, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 7677084366919172280
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172279
+        typeName: InsaneScatterbrain.MapGraph.PrefabSet, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172275
+    - rid: 7677084366919172281
+      type: {class: InputNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7860
+          y: 744
+          width: 161.3335
+          height: 42.666687
+        note: 
+        id: e9657c5f-faa5-44f1-a2a4-2609b9830af9
+        outPorts:
+        - rid: 7677084366919172282
+        inputParameterId: 2e731499-644e-46c0-89b8-36313cb3c1ac
+        inputTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 7677084366919172282
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172281
+        typeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172276
+    - rid: 7677084366919172284
+      type: {class: RandomlyFillTextureNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9570.667
+          y: 4030
+          width: 224
+          height: 398.66675
+        note: 
+        id: 3e4e7fea-66f8-4ac6-ba3d-587be2fe4856
+        providerNode:
+          rid: 7677084366919172285
+        consumerNode:
+          rid: 7677084366919172286
+        textureIn:
+          rid: 7677084366919172287
+        maskIn:
+          rid: 7677084366919172288
+        fillPercentageIn:
+          rid: 7677084366919172289
+        fillColorIn:
+          rid: 7677084366919172290
+        minPlacementsIn:
+          rid: 7677084366919172291
+        maxPlacementsIn:
+          rid: 7677084366919172292
+        textureOut:
+          rid: 7677084366919172293
+        maskOut:
+          rid: 7677084366919172294
+        placementsOut:
+          rid: 7677084366919172295
+    - rid: 7677084366919172285
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: caf78505-2038-4091-b8fa-0fa9f911ad48
+        outPorts:
+        - rid: 7677084366919172293
+        - rid: 7677084366919172294
+        - rid: 7677084366919172295
+    - rid: 7677084366919172286
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 18d75dd5-842c-434e-a447-43ab95b7b73b
+        inPorts:
+        - rid: 7677084366919172287
+        - rid: 7677084366919172288
+        - rid: 7677084366919172289
+        - rid: 7677084366919172290
+        - rid: 7677084366919172291
+        - rid: 7677084366919172292
+    - rid: 7677084366919172287
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172284
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172253
+        isConnectionRequired: 1
+    - rid: 7677084366919172288
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172284
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084351077023744
+        isConnectionRequired: 0
+    - rid: 7677084366919172289
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Fill Percentage
+        owner:
+          rid: 7677084366919172284
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172298
+        isConnectionRequired: 0
+    - rid: 7677084366919172290
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 7677084366919172284
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172306
+        isConnectionRequired: 0
+    - rid: 7677084366919172291
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Min. placements
+        owner:
+          rid: 7677084366919172284
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172301
+        isConnectionRequired: 0
+    - rid: 7677084366919172292
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Max. placements
+        owner:
+          rid: 7677084366919172284
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172302
+        isConnectionRequired: 0
+    - rid: 7677084366919172293
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172284
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084370181292045
+    - rid: 7677084366919172294
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172284
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172295
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Placements
+        owner:
+          rid: 7677084366919172284
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172297
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9462
+          y: 3934.6667
+          width: 78
+          height: 42.666748
+        note: 
+        id: 6502fce9-33df-4bef-b1f4-13a2f4fd35e3
+        outPorts:
+        - rid: 7677084366919172298
+        constTypeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 100
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172298
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172297
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172289
+    - rid: 7677084366919172299
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9478.667
+          y: 4146.6665
+          width: 70
+          height: 42.666504
+        note: 
+        id: 628231d3-be9d-4a32-b38f-0b3d4e6bcfae
+        outPorts:
+        - rid: 7677084366919172301
+        constTypeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 10
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172300
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9470.667
+          y: 4226
+          width: 69.33301
+          height: 42.666504
+        note: 
+        id: 89fd43ca-d606-4c4d-b83f-8cd3f66765ad
+        outPorts:
+        - rid: 7677084366919172302
+        constTypeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 18
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172301
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172299
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172291
+    - rid: 7677084366919172302
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172300
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172292
+    - rid: 7677084366919172305
+      type: {class: NamedColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 9394.667
+          y: 4466
+          width: 152.66602
+          height: 78.666504
+        note: 
+        id: a38e8ba8-6f3f-4788-aae4-a5dfdf986e1d
+        outPorts:
+        - rid: 7677084366919172306
+        namedColorId: 63fe2134-ae8f-404b-992f-2e31a5568190
+        colorOut:
+          rid: 7677084366919172306
+    - rid: 7677084366919172306
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172305
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172290
+    - rid: 7677084366919172307
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7022
+          y: 678
+          width: 210
+          height: 326.6667
+        providerNode:
+          rid: 7677084366919172284
+    - rid: 7677084366919172309
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 9123.333
+          y: 4404
+          width: 209.33398
+          height: 278.6665
+        providerNode:
+          rid: 7677084347958297595
+    - rid: 7677084366919172310
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084366919172288
+        outPort:
+          rid: 7677084351077023744
+        referenceNode:
+          rid: 7677084366919172309
+    - rid: 7677084366919172311
+      type: {class: ApplyMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5012
+          y: -612.6666
+          width: 209.3335
+          height: 302.66666
+        note: 
+        id: effe7174-d860-4e5a-8aec-11a10c2f2c31
+        providerNode:
+          rid: 7677084366919172312
+        consumerNode:
+          rid: 7677084366919172313
+        textureIn:
+          rid: 7677084366919172314
+        maskIn:
+          rid: 7677084366919172315
+        textureOut:
+          rid: 7677084366919172316
+    - rid: 7677084366919172312
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 84efddab-c972-464e-b893-0cc23957192a
+        outPorts:
+        - rid: 7677084366919172316
+    - rid: 7677084366919172313
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 04a0df9b-e251-477d-b1e8-36927d68e9f4
+        inPorts:
+        - rid: 7677084366919172314
+        - rid: 7677084366919172315
+    - rid: 7677084366919172314
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172311
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084347958296787
+        isConnectionRequired: 1
+    - rid: 7677084366919172315
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172311
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172322
+        isConnectionRequired: 1
+    - rid: 7677084366919172316
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172311
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172328
+        - rid: 7677084366919172336
+    - rid: 7677084366919172317
+      type: {class: TextureToMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4954.6665
+          y: -248.66666
+          width: 209.3335
+          height: 302.66666
+        note: 
+        id: cf3292b5-825a-4778-b3d2-58b233dd847b
+        providerNode:
+          rid: 7677084366919172318
+        consumerNode:
+          rid: 7677084366919172319
+        textureIn:
+          rid: 7677084366919172320
+        inverseIn:
+          rid: 7677084366919172321
+        maskOut:
+          rid: 7677084366919172322
+    - rid: 7677084366919172318
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 34e63099-be57-41df-a102-bd52fd87aff1
+        outPorts:
+        - rid: 7677084366919172322
+    - rid: 7677084366919172319
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 4697c3ce-adf8-47fc-87d8-6dccf9a3006c
+        inPorts:
+        - rid: 7677084366919172320
+        - rid: 7677084366919172321
+    - rid: 7677084366919172320
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172317
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084347958296920
+        isConnectionRequired: 1
+    - rid: 7677084366919172321
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Inverse?
+        owner:
+          rid: 7677084366919172317
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172324
+        isConnectionRequired: 0
+    - rid: 7677084366919172322
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172317
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172315
+    - rid: 7677084366919172323
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 4870
+          y: -310
+          width: 63.333496
+          height: 42.666656
+        note: 
+        id: 64fd35cc-a2c8-4bbe-b74a-5b3b3e34d139
+        outPorts:
+        - rid: 7677084366919172324
+        constTypeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: False
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172324
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172323
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172321
+    - rid: 7677084366919172325
+      type: {class: TextureToMaskNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5300
+          y: -612.6666
+          width: 209.3335
+          height: 302.66666
+        note: 
+        id: 605b7465-05a0-4ddd-98c0-78e0013a5cae
+        providerNode:
+          rid: 7677084366919172326
+        consumerNode:
+          rid: 7677084366919172327
+        textureIn:
+          rid: 7677084366919172328
+        inverseIn:
+          rid: 7677084366919172329
+        maskOut:
+          rid: 7677084366919172330
+    - rid: 7677084366919172326
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 9b9cf04a-9e9f-4fdf-a19b-f2f6bfb8b730
+        outPorts:
+        - rid: 7677084366919172330
+    - rid: 7677084366919172327
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 1442cdad-e62a-4a62-890b-b3e3f806e5fc
+        inPorts:
+        - rid: 7677084366919172328
+        - rid: 7677084366919172329
+    - rid: 7677084366919172328
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172325
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172316
+        isConnectionRequired: 1
+    - rid: 7677084366919172329
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Inverse?
+        owner:
+          rid: 7677084366919172325
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172332
+        isConnectionRequired: 0
+    - rid: 7677084366919172330
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172325
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172337
+    - rid: 7677084366919172331
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5221.3335
+          y: -291.33334
+          width: 63.333008
+          height: 42.66667
+        note: 
+        id: bc4f4ac3-af4f-4f75-aec0-5e1a8bb62397
+        outPorts:
+        - rid: 7677084366919172332
+        constTypeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: True
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172332
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172331
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172329
+    - rid: 7677084366919172333
+      type: {class: RandomlyFillTextureNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5616
+          y: -612.6666
+          width: 224
+          height: 398.66663
+        note: 
+        id: 77980cac-1c15-45ec-bfc8-c9c05b261bfb
+        providerNode:
+          rid: 7677084366919172334
+        consumerNode:
+          rid: 7677084366919172335
+        textureIn:
+          rid: 7677084366919172336
+        maskIn:
+          rid: 7677084366919172337
+        fillPercentageIn:
+          rid: 7677084366919172338
+        fillColorIn:
+          rid: 7677084366919172339
+        minPlacementsIn:
+          rid: 7677084366919172340
+        maxPlacementsIn:
+          rid: 7677084366919172341
+        textureOut:
+          rid: 7677084366919172342
+        maskOut:
+          rid: 7677084366919172343
+        placementsOut:
+          rid: 7677084366919172344
+    - rid: 7677084366919172334
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: a3973878-1bc3-4ef2-9572-851b71bcf3a8
+        outPorts:
+        - rid: 7677084366919172342
+        - rid: 7677084366919172343
+        - rid: 7677084366919172344
+    - rid: 7677084366919172335
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 0a7dcd5d-f34f-4a4d-a91b-e45be68018b7
+        inPorts:
+        - rid: 7677084366919172336
+        - rid: 7677084366919172337
+        - rid: 7677084366919172338
+        - rid: 7677084366919172339
+        - rid: 7677084366919172340
+        - rid: 7677084366919172341
+    - rid: 7677084366919172336
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172333
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172316
+        isConnectionRequired: 1
+    - rid: 7677084366919172337
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172333
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172330
+        isConnectionRequired: 0
+    - rid: 7677084366919172338
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Fill Percentage
+        owner:
+          rid: 7677084366919172333
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: 7677084366919172347
+        isConnectionRequired: 0
+    - rid: 7677084366919172339
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Draw Color
+        owner:
+          rid: 7677084366919172333
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172350
+        isConnectionRequired: 0
+    - rid: 7677084366919172340
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Min. placements
+        owner:
+          rid: 7677084366919172333
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172341
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Max. placements
+        owner:
+          rid: 7677084366919172333
+        typeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084366919172342
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084366919172333
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084370181292054
+    - rid: 7677084366919172343
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084366919172333
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172344
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Placements
+        owner:
+          rid: 7677084366919172333
+        typeName: UnityEngine.Vector2Int[], UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084366919172346
+      type: {class: ConstantNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5515.3335
+          y: -626.6666
+          width: 72
+          height: 42.666626
+        note: 
+        id: 68aa656e-d37a-49ee-a4cd-136b47ae6616
+        outPorts:
+        - rid: 7677084366919172347
+        constTypeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        serializedVal: 30
+        serializedObj: {fileID: 0}
+    - rid: 7677084366919172347
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172346
+        typeName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedInPorts:
+        - rid: 7677084366919172338
+    - rid: 7677084366919172349
+      type: {class: NamedColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5402.6665
+          y: -288
+          width: 168.66699
+          height: 78.66666
+        note: 
+        id: eb8ead5d-1625-4831-b120-03feeb2861ff
+        outPorts:
+        - rid: 7677084366919172350
+        namedColorId: e53fb418-7bc2-4776-8987-02b9d25cf5fc
+        colorOut:
+          rid: 7677084366919172350
+    - rid: 7677084366919172350
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          rid: 7677084366919172349
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172339
+        - rid: 7677084366919172339
+        - rid: 7677084370181292055
+    - rid: 7677084370181292034
+      type: {class: Note, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7202.6665
+          y: 2748.6667
+          width: 250
+          height: 200
+        title: Floor Props
+        contents: Note
+        theme: 0
+        fontSize: 0
+    - rid: 7677084370181292035
+      type: {class: Note, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7611.3335
+          y: 2895.3335
+          width: 250
+          height: 200
+        title: Each Corner Lights Floor
+        contents: Note
+        theme: 0
+        fontSize: 0
+    - rid: 7677084370181292036
+      type: {class: Note, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 8522.667
+          y: 3224
+          width: 250
+          height: 200
+        title: Props Middle Floor
+        contents: Note
+        theme: 0
+        fontSize: 0
+    - rid: 7677084370181292037
+      type: {class: Note, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 9099.333
+          y: 3752
+          width: 250
+          height: 200
+        title: Props Middle Ceiling
+        contents: Note
+        theme: 0
+        fontSize: 0
+    - rid: 7677084370181292038
+      type: {class: Note, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 9560
+          y: 3810
+          width: 250
+          height: 198.66675
+        title: Props Ceiling
+        contents: Note
+        theme: 0
+        fontSize: 0
+    - rid: 7677084370181292042
+      type: {class: StampNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 7340
+          y: 678
+          width: 209.3335
+          height: 326.6667
+        note: 
+        id: 16d89b39-f3db-440c-a38f-2e12c8ff6d5c
+        providerNode:
+          rid: 7677084370181292043
+        consumerNode:
+          rid: 7677084370181292044
+        textureIn:
+          rid: 7677084370181292045
+        stampIn:
+          rid: 7677084370181292046
+        offsetIn:
+          rid: 7677084370181292047
+        textureOut:
+          rid: 7677084370181292048
+    - rid: 7677084370181292043
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 2b216472-7aea-4275-ae44-78dcd76b026e
+        outPorts:
+        - rid: 7677084370181292048
+    - rid: 7677084370181292044
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: e086e3ec-e2e1-477d-953b-630a2be73b95
+        inPorts:
+        - rid: 7677084370181292045
+        - rid: 7677084370181292046
+        - rid: 7677084370181292047
+    - rid: 7677084370181292045
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084370181292042
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172293
+        isConnectionRequired: 1
+    - rid: 7677084370181292046
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Stamp
+        owner:
+          rid: 7677084370181292042
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084370181292056
+        isConnectionRequired: 1
+    - rid: 7677084370181292047
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Offset
+        owner:
+          rid: 7677084370181292042
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: -2
+        isConnectionRequired: 0
+    - rid: 7677084370181292048
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084370181292042
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084366919172274
+    - rid: 7677084370181292050
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084370181292045
+        outPort:
+          rid: 7677084366919172293
+        referenceNode:
+          rid: 7677084366919172307
+    - rid: 7677084370181292051
+      type: {class: ExtractColorNode, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 5859.3335
+          y: -570
+          width: 209.33301
+          height: 302.6667
+        note: 
+        id: d30026ec-6011-4a29-93df-afa37ac7cd79
+        providerNode:
+          rid: 7677084370181292052
+        consumerNode:
+          rid: 7677084370181292053
+        textureIn:
+          rid: 7677084370181292054
+        colorToExtractIn:
+          rid: 7677084370181292055
+        textureOut:
+          rid: 7677084370181292056
+        maskOut:
+          rid: 7677084370181292057
+    - rid: 7677084370181292052
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 1be889c5-eabf-4231-9725-df62ed390d16
+        outPorts:
+        - rid: 7677084370181292056
+        - rid: 7677084370181292057
+    - rid: 7677084370181292053
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: bff7f8b4-8653-467a-be59-cc031116fc39
+        inPorts:
+        - rid: 7677084370181292054
+        - rid: 7677084370181292055
+    - rid: 7677084370181292054
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084370181292051
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172342
+        isConnectionRequired: 1
+    - rid: 7677084370181292055
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Color To Extract
+        owner:
+          rid: 7677084370181292051
+        typeName: UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        connectedOut:
+          rid: 7677084366919172350
+        isConnectionRequired: 0
+    - rid: 7677084370181292056
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          rid: 7677084370181292051
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - rid: 7677084370181292046
+    - rid: 7677084370181292057
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Mask
+        owner:
+          rid: 7677084370181292051
+        typeName: InsaneScatterbrain.MapGraph.Mask, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts: []
+    - rid: 7677084370181292058
+      type: {class: ReferenceNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        position:
+          serializedVersion: 2
+          x: 7104
+          y: 1044
+          width: 209.3335
+          height: 302.66663
+        providerNode:
+          rid: 7677084370181292051
+    - rid: 7677084370181292059
+      type: {class: ReferenceNodeConnection, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        inPort:
+          rid: 7677084370181292046
+        outPort:
+          rid: 7677084370181292056
+        referenceNode:
+          rid: 7677084370181292058

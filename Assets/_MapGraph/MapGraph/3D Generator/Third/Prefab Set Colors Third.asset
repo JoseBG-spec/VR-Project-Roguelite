@@ -56,6 +56,26 @@ MonoBehaviour:
       color:
         serializedVersion: 2
         rgba: 4281758127
+    - id: 4ac16888-4dfc-4bf6-bf98-80114136a03f
+      name: Light Props Floor
+      color:
+        serializedVersion: 2
+        rgba: 4285717561
+    - id: 9f370669-0417-4d17-a04b-bf97ad19f720
+      name: Light Props Ceiling
+      color:
+        serializedVersion: 2
+        rgba: 4287107947
+    - id: a0b8c0b9-66de-4f6c-987d-63acf0816cb3
+      name: Props Middle Floor
+      color:
+        serializedVersion: 2
+        rgba: 4291006685
+    - id: e53fb418-7bc2-4776-8987-02b9d25cf5fc
+      name: Light Props Corridor
+      color:
+        serializedVersion: 2
+        rgba: 4279835408
     orderedIds:
     - b31acf94-cf75-4ec6-bc6b-d79a841c478b
     - c573e74e-bae3-4b05-9215-a5c54c1088f7
@@ -65,6 +85,10 @@ MonoBehaviour:
     - 63fe2134-ae8f-404b-992f-2e31a5568190
     - 219f8231-5c13-4e83-ac06-694612f0dfc9
     - a3f2e19e-a62d-46e6-8813-a5170006f7c8
+    - 4ac16888-4dfc-4bf6-bf98-80114136a03f
+    - 9f370669-0417-4d17-a04b-bf97ad19f720
+    - a0b8c0b9-66de-4f6c-987d-63acf0816cb3
+    - e53fb418-7bc2-4776-8987-02b9d25cf5fc
   serializedNames: []
   serializedColors: []
   serializedLinkedSets:
