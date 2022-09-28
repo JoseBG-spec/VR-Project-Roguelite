@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4034241351149816049
 Transform:
@@ -57,7 +57,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1300666449866545678
 Transform:
@@ -147,6 +147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Coins_01
       objectReference: {fileID: 0}
+    - target: {fileID: 115104, guid: 5e966a5749f9b264a9eee5c9fffdfde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 449654, guid: 5e966a5749f9b264a9eee5c9fffdfde9, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -228,6 +232,10 @@ PrefabInstance:
     - target: {fileID: 165626, guid: 67e9d0b0d7ee4da4d82f258ee2471dec, type: 3}
       propertyPath: m_Name
       value: SM_Item_Inkwell_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 165626, guid: 67e9d0b0d7ee4da4d82f258ee2471dec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 410506, guid: 67e9d0b0d7ee4da4d82f258ee2471dec, type: 3}
       propertyPath: m_RootOrder
@@ -311,6 +319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Potion_03
       objectReference: {fileID: 0}
+    - target: {fileID: 157152, guid: 03eb254be55316240929244bd19caa02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 453130, guid: 03eb254be55316240929244bd19caa02, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -392,6 +404,10 @@ PrefabInstance:
     - target: {fileID: 141482, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
       propertyPath: m_Name
       value: SM_Prop_StoneTable_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 141482, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 405634, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
       propertyPath: m_RootOrder
@@ -475,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Book_01
       objectReference: {fileID: 0}
+    - target: {fileID: 166544, guid: 432e90641b77e1641bbe326c4647207e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 417370, guid: 432e90641b77e1641bbe326c4647207e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -556,6 +576,10 @@ PrefabInstance:
     - target: {fileID: 195884, guid: 9f78e8c3007d3dd46a0681fc1a4330da, type: 3}
       propertyPath: m_Name
       value: SM_Item_Scale_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 195884, guid: 9f78e8c3007d3dd46a0681fc1a4330da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 440928, guid: 9f78e8c3007d3dd46a0681fc1a4330da, type: 3}
       propertyPath: m_RootOrder
@@ -639,6 +663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_StoneChair_01
       objectReference: {fileID: 0}
+    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -721,6 +749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Tech_Crystal_01
       objectReference: {fileID: 0}
+    - target: {fileID: 168806, guid: 7c680b46ce821d34dbd937520b58182a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 476228, guid: 7c680b46ce821d34dbd937520b58182a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -786,6 +818,10 @@ PrefabInstance:
     - target: {fileID: 129232, guid: bb363b36c456a3f4cb13db09784df636, type: 3}
       propertyPath: m_Name
       value: SM_Item_BookPile_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 129232, guid: bb363b36c456a3f4cb13db09784df636, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 488826, guid: bb363b36c456a3f4cb13db09784df636, type: 3}
       propertyPath: m_RootOrder
@@ -865,9 +901,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4034241351149816049}
     m_Modifications:
+    - target: {fileID: 109488, guid: 2bd7a9b8417adc54bbbe5f8ede8ff8c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 160570, guid: 2bd7a9b8417adc54bbbe5f8ede8ff8c1, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Candle_02_Preset
+      objectReference: {fileID: 0}
+    - target: {fileID: 160570, guid: 2bd7a9b8417adc54bbbe5f8ede8ff8c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 472680, guid: 2bd7a9b8417adc54bbbe5f8ede8ff8c1, type: 3}
       propertyPath: m_RootOrder

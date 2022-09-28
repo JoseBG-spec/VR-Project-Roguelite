@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4636353139436775983
 Transform:
@@ -108,7 +108,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5894465444659729203
 Transform:
@@ -138,6 +138,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fabff3cbe4a4be24a90f7b23e155e025, type: 3}
       propertyPath: m_Name
       value: FX_Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fabff3cbe4a4be24a90f7b23e155e025, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fabff3cbe4a4be24a90f7b23e155e025, type: 3}
       propertyPath: m_RootOrder
@@ -220,6 +224,10 @@ PrefabInstance:
     - target: {fileID: 131778, guid: 74231780cc79e3a45a60bfadd89b76d5, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Bonfire_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 131778, guid: 74231780cc79e3a45a60bfadd89b76d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 411366, guid: 74231780cc79e3a45a60bfadd89b76d5, type: 3}
       propertyPath: m_RootOrder
