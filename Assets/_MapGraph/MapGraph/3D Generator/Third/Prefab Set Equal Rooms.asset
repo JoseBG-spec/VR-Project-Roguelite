@@ -136,6 +136,10 @@ MonoBehaviour:
       name: Player
       prefabs:
       - prefab: {fileID: 7681242606542331832, guid: 9033927203801de47bafb3bc99583888, type: 3}
+    - id: 76149496-97ef-41d8-b3eb-e0f619d01841
+      name: VR TP Floor
+      prefabs:
+      - prefab: {fileID: 8645173071923280793, guid: 5add4c47783c6ec4f8806c4ffc3b3687, type: 3}
     orderedIds:
     - 73e61a67-a497-480a-b3ee-c8e31551b6d7
     - b5d3fccd-cd71-480d-a6f7-440adbf81afe
@@ -150,3 +154,4 @@ MonoBehaviour:
     - 07e86ae7-1c03-4a8f-97b4-eb2fb9e279c4
     - 99149ac5-e9dc-4acf-b59b-49711e6a5619
     - 99471e23-bb5c-44db-b87f-4ab08cd1d817
+    - 76149496-97ef-41d8-b3eb-e0f619d01841

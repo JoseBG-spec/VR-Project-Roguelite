@@ -81,6 +81,11 @@ MonoBehaviour:
       color:
         serializedVersion: 2
         rgba: 4293980396
+    - id: 5680923d-c574-4081-b693-0737dcaa4b73
+      name: VR TP Floor
+      color:
+        serializedVersion: 2
+        rgba: 4282886724
     orderedIds:
     - b31acf94-cf75-4ec6-bc6b-d79a841c478b
     - c573e74e-bae3-4b05-9215-a5c54c1088f7
@@ -95,6 +100,7 @@ MonoBehaviour:
     - a0b8c0b9-66de-4f6c-987d-63acf0816cb3
     - e53fb418-7bc2-4776-8987-02b9d25cf5fc
     - ecbb7ac9-b352-4dd8-a78a-ea4b6d7a7910
+    - 5680923d-c574-4081-b693-0737dcaa4b73
   serializedNames: []
   serializedColors: []
   serializedLinkedSets:
