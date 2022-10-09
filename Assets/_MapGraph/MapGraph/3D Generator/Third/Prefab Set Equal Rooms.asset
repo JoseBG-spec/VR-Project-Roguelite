@@ -56,7 +56,6 @@ MonoBehaviour:
     - id: ea750f75-0466-421a-ae22-d7817fa3db93
       name: Enemies
       prefabs:
-      - prefab: {fileID: 1084090695722338, guid: a5f085b470d1fc74da9087ff1b588573, type: 3}
       - prefab: {fileID: 1293082480778088, guid: 59a65bee78042374ab4ee64a4b3011ff, type: 3}
       - prefab: {fileID: 1438608989707952, guid: 0af3d10352b585c4eb54cae46990adfa, type: 3}
       - prefab: {fileID: 1624536181693422, guid: 907fc379f4245f047b09824b0ddb7202, type: 3}
@@ -135,7 +134,7 @@ MonoBehaviour:
     - id: 99471e23-bb5c-44db-b87f-4ab08cd1d817
       name: Player
       prefabs:
-      - prefab: {fileID: 7681242606542331832, guid: 9033927203801de47bafb3bc99583888, type: 3}
+      - prefab: {fileID: 7681242606542331832, guid: 66f31e8e7b271d444ae64cbc416030ed, type: 3}
     - id: 76149496-97ef-41d8-b3eb-e0f619d01841
       name: VR TP Floor
       prefabs:
