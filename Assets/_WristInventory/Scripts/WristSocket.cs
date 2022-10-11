@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class WristSocket : XRSocketInteractor
 {
     // Sizing
-    public float targetSize = 0.25f;
+    public float targetSize = 0.04f;
     public float sizingDuration = 0.25f;
 
     // Runtime

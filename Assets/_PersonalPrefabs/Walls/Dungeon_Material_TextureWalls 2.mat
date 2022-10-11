@@ -8,13 +8,15 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Dungeon_Material_TextureWalls 2
-  m_Shader: {fileID: -6465566751694194690, guid: 49e6d7c6e9223414ea8aaac81aff066f, type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: 4800000, guid: 71d6765ad72e11541bc1448c891bbcf9, type: 3}
+  m_ValidKeywords:
+  - COLOR_GRADING_ON
+  - RECEIVE_SHADOWS_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -85,7 +87,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PaletteLUT:
-        m_Texture: {fileID: 2800000, guid: 388d8873939037b4babe210a2eaaf22f, type: 3}
+        m_Texture: {fileID: 2800000, guid: f649cbc58189f5141ad422e49af19117, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -106,7 +108,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - COLOR_GRADING: 0
+    - COLOR_GRADING: 1
     - RECEIVE_SHADOWS: 1
     - USE_OBJECT_POSITION: 0
     - Vector1_7009760a183a4f9fbc42f57ac1af4dd9: 0.5
@@ -153,7 +155,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _ASCIIBackingColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ASCIIBackingColor: {r: 1, g: 1, b: 1, a: 0}
     - _ASCIIFontColor: {r: 1, g: 1, b: 1, a: 0}
     - _ASCIIResolution: {r: 128, g: 128, b: 0, a: 0}
     - _AmbientLight: {r: 0.2, g: 0.2, b: 0.2, a: 0}

@@ -15,8 +15,8 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
   m_RendererFeatures:
-  - {fileID: 4799380891033636670}
-  m_RendererFeatureMap: 3e8fdbff7dd39a42
+  - {fileID: 3930562479725610072}
+  m_RendererFeatureMap: 58048613c0298c36
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
---- !u!114 &4799380891033636670
+--- !u!114 &3930562479725610072
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -62,22 +62,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03d47f9e493f2114fa76e2ec6ff50db1, type: 3}
-  m_Name: ASCIIRenderFeature
+  m_Script: {fileID: 11500000, guid: 7ef6d2d7bf3633e4baf72310f121f717, type: 3}
+  m_Name: PixelisationFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  settings:
-    fontAsset: {fileID: 0}
-    numberOfCharacters: 2
-    fontRatio: 1
-    columnCount: 800
-    aspectRatioDesc: 5
-    aspectRatio: {x: 1, y: 1}
-    flipAspect: 0
-    fontColor: {r: 1, g: 1, b: 1, a: 1}
-    fontColorStrength: 0
-    backingColor: {r: 1, g: 1, b: 1, a: 1}
-    backingColorStrength: 0
-    iterations: 0
-  cachedScreenResolution: {x: 800, y: 351}
-  cachedColumnCount: 800
+  UseDepthTestingForIDOutlines: 1
+  DepthTestThreshold: 0.001
+  UseNormalsForEdgeDetection: 0
+  NormalEdgeDetectionSensitivity: 1
+  PixelizationShaders:
+    PixelizationMap: {fileID: 4800000, guid: 8dd346b62451e76418dabc2355815f15, type: 3}
+    CopyDepth: {fileID: 4800000, guid: 5854eec6cff8aa8449c5f14562cf9c11, type: 3}
+    CopyMainTexAndDepth: {fileID: 4800000, guid: 4fdd965c0d64e16468688f87fbca597d, type: 3}
+    ApplyPixelizationMap: {fileID: 4800000, guid: f47f4f650fb29834684600d9a95f41c7, type: 3}
+  OutlineShaders:
+    OutlineDetection: {fileID: 4800000, guid: c59878161c7e0ad40b0661b47620d0e5, type: 3}

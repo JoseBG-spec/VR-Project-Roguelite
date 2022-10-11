@@ -132,7 +132,7 @@ Material:
     m_Colors:
     - _ASCIIBackingColor: {r: 0, g: 0, b: 0, a: 0}
     - _ASCIIFontColor: {r: 1, g: 1, b: 1, a: 0}
-    - _ASCIIResolution: {r: 128, g: 128, b: 0, a: 0}
+    - _ASCIIResolution: {r: 64, g: 64, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
