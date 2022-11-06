@@ -1576,6 +1576,7 @@ GameObject:
   - component: {fileID: -3010033705663493022}
   - component: {fileID: 4447770970370899012}
   - component: {fileID: 4171052275329312626}
+  - component: {fileID: 5705265728654591506}
   m_Layer: 6
   m_Name: Character_Skeleton_Knight
   m_TagString: Untagged
@@ -1648,7 +1649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 15
-  hitRange: 0
+  hitRange: 4
   player: {fileID: 0}
   animator: {fileID: 95638647239848926}
   yOffset: 4
@@ -1682,6 +1683,28 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300026, guid: b6ef2f4d0154b2747860a3332fa05f97, type: 3}
+--- !u!195 &5705265728654591506
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438608989707952}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1453651309194626
 GameObject:
   m_ObjectHideFlags: 0

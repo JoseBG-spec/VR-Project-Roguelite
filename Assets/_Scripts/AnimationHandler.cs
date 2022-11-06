@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AnimationHandler : MonoBehaviour
 {
@@ -10,11 +11,16 @@ public class AnimationHandler : MonoBehaviour
     public Transform player;
     public Animator animator; 
     public float yOffset;
+    float rValue;
+    float timer = 0;
+    NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        
+        agent = GetComponent<NavMeshAgent>();
+        player = GameObject.Find("XR Origin").transform;
+
 
     }
 
@@ -24,18 +30,29 @@ public class AnimationHandler : MonoBehaviour
 
         if (Vector3.Distance(player.position, new Vector3 (transform.position.x, transform.position.y + yOffset, transform.position.z)) <= range && Vector3.Distance(player.position, new Vector3 (transform.position.x, transform.position.y + yOffset, transform.position.z)) >= hitRange){
              animator.SetBool("Spotted", true);
+             agent.SetDestination(player.position);
         
 
          } else if (Vector3.Distance(player.position, new Vector3 (transform.position.x, transform.position.y + yOffset, transform.position.z)) <= hitRange){
             animator.SetBool("Spotted", false);
-  
-              if (Random.value >= 0.5)
+            rValue = Random.value;
+            Debug.Log(rValue);
+              if (rValue >= 0.5)
                 {
                      animator.SetBool("HitRangeL", true);
-                     animator.SetBool("HitRangeR", false);
+                    timer += Time.deltaTime;
+                    if (timer > 1.5) {
+                         animator.SetBool("HitRangeL", false);
+                         timer = 0;
+                    }
+                    
                 }
-                    animator.SetBool("HitRangeL", false);
                     animator.SetBool("HitRangeR", true);
+                    if (timer > 1.5) {
+                         animator.SetBool("HitRangeR", false);
+                         timer = 0;
+                    }
+                    
                 }
         
     }
