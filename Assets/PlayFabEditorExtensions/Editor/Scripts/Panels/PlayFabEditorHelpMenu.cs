@@ -23,7 +23,7 @@ namespace PlayFab.PfEditor
 
                     if (GUILayout.Button("BEGINNERS GUIDE", PlayFabEditorHelper.uiStyle.GetStyle("Button"), GUILayout.MinHeight(32), GUILayout.Width(buttonWidth)))
                     {
-                        Application.OpenURL("https://docs.microsoft.com/en-us/gaming/playfab/index#pivot=documentation&panel=quickstarts");
+                        Application.OpenURL("https://api.playfab.com/docs/beginners-guide");
                     }
 
                     GUILayout.FlexibleSpace();
@@ -35,7 +35,7 @@ namespace PlayFab.PfEditor
 
                     if (GUILayout.Button("RECIPES", PlayFabEditorHelper.uiStyle.GetStyle("Button"), GUILayout.MinHeight(32), GUILayout.Width(buttonWidth)))
                     {
-                        Application.OpenURL("https://docs.microsoft.com/en-us/gaming/playfab/resources/recipes-and-samples");
+                        Application.OpenURL("https://api.playfab.com/docs/recipe-index");
                     }
 
                     GUILayout.FlexibleSpace();
@@ -47,7 +47,7 @@ namespace PlayFab.PfEditor
 
                     if (GUILayout.Button("TUTORIALS", PlayFabEditorHelper.uiStyle.GetStyle("Button"), GUILayout.MinHeight(32), GUILayout.Width(buttonWidth)))
                     {
-                        Application.OpenURL("https://docs.microsoft.com/en-us/gaming/playfab/features/commerce/economy/tutorials");
+                        Application.OpenURL("https://api.playfab.com/docs/tutorials");
                     }
 
                     GUILayout.FlexibleSpace();
@@ -59,7 +59,7 @@ namespace PlayFab.PfEditor
 
                     if (GUILayout.Button("API REFERENCE", PlayFabEditorHelper.uiStyle.GetStyle("Button"), GUILayout.MinHeight(32), GUILayout.Width(buttonWidth)))
                     {
-                        Application.OpenURL("https://docs.microsoft.com/en-us/gaming/playfab/api-references/");
+                        Application.OpenURL("https://api.playfab.com/documentation");
                     }
 
                     GUILayout.FlexibleSpace();

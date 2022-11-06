@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1722222951487142341}
   m_Layer: 0
   m_Name: SM_Env_Rune_Pillar_05
-  m_TagString: Untagged
+  m_TagString: CardBase
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

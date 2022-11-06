@@ -1,5 +1,7 @@
-using System;
+using UnityEditor;
 using UnityEngine;
+using System;
+using System.Reflection;
 
 namespace PlayFab.PfEditor
 {
@@ -51,7 +53,7 @@ namespace PlayFab.PfEditor
             GUILayout.Label(" PUBSUB IS IN PRIVATE PREVIEW.");
             GUILayout.EndHorizontal();
             GUILayout.BeginHorizontal();
-            GUILayout.Label(" If you are a Professional or Enterprise tier customer and wish to try this feature out, Please contact helloplayfab@microsoft.com for more information.");
+            GUILayout.Label(" If you are a Professional or Enterprise tier customer and wish to try this feature out, Please contact devrel@playfab.com for more information.");
             GUILayout.EndHorizontal();
             GUILayout.BeginHorizontal();
             GUILayout.Label(" User MUST be currently signed into GitHub (with their default browser) to successfully install the unitypackage");
