@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedObjectVersion:
     version: 1.19.1
-  prefabWidth: 5
-  prefabHeight: 5
+  prefabWidth: 2.5
+  prefabHeight: 2.5
   prefabTypes: []
   openPrefabSet:
     elements:
@@ -134,7 +134,7 @@ MonoBehaviour:
     - id: 99471e23-bb5c-44db-b87f-4ab08cd1d817
       name: Player
       prefabs:
-      - prefab: {fileID: 7681242606542331832, guid: 66f31e8e7b271d444ae64cbc416030ed, type: 3}
+      - prefab: {fileID: 7681242606542331832, guid: 9033927203801de47bafb3bc99583888, type: 3}
     - id: 76149496-97ef-41d8-b3eb-e0f619d01841
       name: VR TP Floor
       prefabs:

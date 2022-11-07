@@ -14,7 +14,7 @@ public class CardSpawner : MonoBehaviour
         cardBases = GameObject.FindGameObjectsWithTag("CardBase");
 
         foreach (GameObject cardBase in cardBases) {
-            Instantiate(cardPrefab, cardBase.transform.position + (cardBase.transform.up * 5), cardBase.transform.rotation);
+            Instantiate(cardPrefab, cardBase.transform.position + (cardBase.transform.up * 3), cardBase.transform.rotation);
         }
         
     }
