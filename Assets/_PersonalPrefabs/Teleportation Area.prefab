@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2710551727572347382}
   - component: {fileID: 9020028396349329555}
   - component: {fileID: 6799771521930192252}
+  - component: {fileID: 2725046312012058398}
   m_Layer: 0
   m_Name: Teleportation Area
   m_TagString: Untagged
@@ -168,3 +169,17 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
+--- !u!64 &2725046312012058398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8645173071923280793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}

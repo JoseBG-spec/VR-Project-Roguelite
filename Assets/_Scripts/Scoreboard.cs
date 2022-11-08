@@ -5,9 +5,6 @@ using InsaneScatterbrain.ScriptGraph;
 
 public class Scoreboard : MonoBehaviour
 {
-
-
-    public GameObject[] totalEnemies;
     public int enemyCount;
     public int score;
     PlayFabManager playfab;
@@ -17,22 +14,23 @@ public class Scoreboard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject[] totalEnemies;
         playfab = GetComponent<PlayFabManager>();
         totalEnemies = GameObject.FindGameObjectsWithTag("Enemy");
         enemyCount = totalEnemies.Length;
     }
 
-    public void checkCompletion(int current) {
+    public void checkCompletion() {
 
-        if (current == enemyCount){
-            endLevel(current);
+        if (score == enemyCount){
+            endLevel();
         }
 
     }
 
-    void endLevel(int score){
+    void endLevel(){
         playfab.SendLeaderboard(score);
-        graphRunner.Run();
+        graphRunner.RunAsync();
 
     }
 }

@@ -26,8 +26,8 @@ public class SwordCut : MonoBehaviour
         AddHullComponents(top, parent);
         Destroy(sliceObject);
         Destroy(parent);
-        score++;
-        scoreboard.checkCompletion(score);
+        scoreboard.score++;
+        scoreboard.checkCompletion();
     }
 
     public void AddHullComponents(GameObject go,GameObject parent)

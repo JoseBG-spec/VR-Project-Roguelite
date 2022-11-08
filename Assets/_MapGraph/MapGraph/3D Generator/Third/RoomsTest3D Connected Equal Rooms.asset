@@ -7252,7 +7252,7 @@ MonoBehaviour:
         - rid: 7677084347958296977
         constTypeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-        serializedVal: 11
+        serializedVal: 6
         serializedObj: {fileID: 0}
     - rid: 7677084347958296977
       type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
@@ -7279,7 +7279,7 @@ MonoBehaviour:
         - rid: 7677084347958296989
         constTypeName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-        serializedVal: 10
+        serializedVal: 5
         serializedObj: {fileID: 0}
     - rid: 7677084347958296989
       type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}

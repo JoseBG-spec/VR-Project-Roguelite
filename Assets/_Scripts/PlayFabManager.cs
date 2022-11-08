@@ -43,7 +43,7 @@ public class PlayFabManager : MonoBehaviour
             {
                 new StatisticUpdate
                 {
-                    StatisticName = "Run Score",
+                    StatisticName = "Leaderboard",
                     Value = score
                 }
             }
@@ -60,7 +60,7 @@ public class PlayFabManager : MonoBehaviour
     {
         var request = new GetLeaderboardRequest
         {
-            StatisticName = "Run Score",
+            StatisticName = "Leaderboard",
             StartPosition = 0,
             MaxResultsCount = 10,
         };
