@@ -12,6 +12,8 @@ public class PlayFabManager : MonoBehaviour
         Login();
     }
 
+
+
     // Update is called once per frame
     void Login()
     {
@@ -32,43 +34,44 @@ public class PlayFabManager : MonoBehaviour
         Debug.Log(error.GenerateErrorReport());
     }
 
-    // public void SendLeaderboard(int score)
-    // {
-    //     var request = new UpdatePlayerStatisticsRequest
-    //     {
-    //         Statistics = new List<StatisticUpdate>
-    //         {
-    //             new StatisticUpdate
-    //             {
-    //                 StatisticName = "Run Score",
-    //                 Value = score
-    //             }
-    //         }
-    //     };
-    //     PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
-    // }
+    
+    public void SendLeaderboard(int score)
+    {
+        var request = new UpdatePlayerStatisticsRequest
+        {
+            Statistics = new List<StatisticUpdate>
+            {
+                new StatisticUpdate
+                {
+                    StatisticName = "Run Score",
+                    Value = score
+                }
+            }
+        };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
+    }
 
-    // void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result)
-    // {
-    //     Debug.Log("Successfull leaderboard sent");
-    // }
+    void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result)
+    {
+        Debug.Log("Successfull leaderboard sent");
+    }
 
-    // public void GetLeaderboard()
-    // {
-    //     var request = new GetLeaderboardRequest
-    //     {
-    //         StatisticName = "Run Score",
-    //         StartPosition = 0,
-    //         MaxResultsCount = 10,
-    //     };
-    //     PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
-    // }
+    public void GetLeaderboard()
+    {
+        var request = new GetLeaderboardRequest
+        {
+            StatisticName = "Run Score",
+            StartPosition = 0,
+            MaxResultsCount = 10,
+        };
+        PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
+    }
 
-    // void OnLeaderboardGet(GetLeaderboardResult result)
-    // {
-    //     foreach (var item in result.Leaderboard)
-    //     {
-    //         Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
-    //     }
-    // }
+    void OnLeaderboardGet(GetLeaderboardResult result)
+    {
+        foreach (var item in result.Leaderboard)
+        {
+            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+        }
+    }
 }

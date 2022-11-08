@@ -7,6 +7,15 @@ public class SwordCut : MonoBehaviour
 {
     [SerializeField] private Material crossMaterial;
     [SerializeField] private Transform cutPlane;
+
+    public int score;
+    public Scoreboard scoreboard; 
+
+    public void Start() {
+
+        scoreboard = GameObject.Find("Directional Light (PlayFab)").GetComponent<Scoreboard>();
+    }
+
     public void Slice(GameObject sliceObject, GameObject parent)
     {
         SlicedHull hull = SliceObject(sliceObject, crossMaterial);
@@ -17,6 +26,8 @@ public class SwordCut : MonoBehaviour
         AddHullComponents(top, parent);
         Destroy(sliceObject);
         Destroy(parent);
+        score++;
+        scoreboard.checkCompletion(score);
     }
 
     public void AddHullComponents(GameObject go,GameObject parent)
