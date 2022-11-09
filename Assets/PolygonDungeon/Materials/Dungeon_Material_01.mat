@@ -10,6 +10,7 @@ Material:
   m_Name: Dungeon_Material_01
   m_Shader: {fileID: 4800000, guid: 71d6765ad72e11541bc1448c891bbcf9, type: 3}
   m_ValidKeywords:
+  - COLOR_GRADING_ON
   - RECEIVE_SHADOWS_ON
   - USE_OBJECT_POSITION_ON
   m_InvalidKeywords: []
@@ -87,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PaletteLUT:
-        m_Texture: {fileID: 2800000, guid: cb20b3bfa4de9cd4084d3626193b6898, type: 3}
+        m_Texture: {fileID: 2800000, guid: f649cbc58189f5141ad422e49af19117, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -112,7 +113,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - COLOR_GRADING: 0
+    - COLOR_GRADING: 1
     - RECEIVE_SHADOWS: 1
     - USE_OBJECT_POSITION: 1
     - _ASCIIBackingColorStrength: 0
