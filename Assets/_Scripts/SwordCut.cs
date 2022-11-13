@@ -41,7 +41,7 @@ public class SwordCut : MonoBehaviour
         MeshCollider collider = go.AddComponent<MeshCollider>();
         collider.convex = true;
 
-        //rb.AddExplosionForce(1, go.transform.position, 20);
+        rb.AddExplosionForce(15, go.transform.position, 20);
     }
 
     public SlicedHull SliceObject(GameObject obj, Material crossSectionMaterial = null)

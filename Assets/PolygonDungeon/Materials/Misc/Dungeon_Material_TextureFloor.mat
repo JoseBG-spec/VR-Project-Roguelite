@@ -25,6 +25,7 @@ Material:
   m_ValidKeywords:
   - COLOR_GRADING_ON
   - RECEIVE_SHADOWS_ON
+  - USE_OBJECT_POSITION_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -119,7 +120,7 @@ Material:
     m_Floats:
     - COLOR_GRADING: 1
     - RECEIVE_SHADOWS: 1
-    - USE_OBJECT_POSITION: 0
+    - USE_OBJECT_POSITION: 1
     - _ASCIIBackingColorStrength: 0
     - _ASCIICharacterCount: 10
     - _ASCIIFontColorStrength: 0
@@ -144,7 +145,7 @@ Material:
     - _OcclusionStrength: 1
     - _OutlineSize: 10
     - _Parallax: 0.02
-    - _PixelSize: 4
+    - _PixelSize: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RampLevels: 2

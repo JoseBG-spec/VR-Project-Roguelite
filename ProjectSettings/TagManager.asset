@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Cuttable
   - Enemy
+  - CardBase
+  - Death
   layers:
   - Default
   - TransparentFX
