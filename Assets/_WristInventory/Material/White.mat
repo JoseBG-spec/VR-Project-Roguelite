@@ -8,19 +8,26 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: White
-  m_Shader: {fileID: -6465566751694194690, guid: 49e6d7c6e9223414ea8aaac81aff066f, type: 3}
-  m_ValidKeywords: []
+  m_Shader: {fileID: 4800000, guid: 71d6765ad72e11541bc1448c891bbcf9, type: 3}
+  m_ValidKeywords:
+  - COLOR_GRADING_ON
+  - RECEIVE_SHADOWS_ON
+  - USE_OBJECT_POSITION_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _ASCIIFontAsset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -44,12 +51,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _EmmisTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightingRamp:
+        m_Texture: {fileID: 2800000, guid: 211497300d75d8e4b9b3e2913a93e908, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -60,12 +75,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaletteLUT:
+        m_Texture: {fileID: 2800000, guid: 7bc27639e3b51964dbd5d3e8dcbf09af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -90,6 +113,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - COLOR_GRADING: 1
+    - RECEIVE_SHADOWS: 1
+    - USE_OBJECT_POSITION: 1
     - _ASCIIBackingColorStrength: 0.809
     - _ASCIICharacterCount: 10
     - _ASCIIFontColorStrength: 0
@@ -109,6 +135,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _HighIntensity: 2.3
+    - _ID: 1
     - _LightScalar: 1.2
     - _LowIntensity: 1.36
     - _Metallic: 0
@@ -116,6 +143,7 @@ Material:
     - _OcclusionStrength: 1
     - _OutlineSize: 10
     - _Parallax: 0.02
+    - _PixelSize: 3
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RampLevels: 4
@@ -135,13 +163,16 @@ Material:
     - _ASCIIBackingColor: {r: 0.9911022, g: 0.00699541, b: 0, a: 1}
     - _ASCIIFontColor: {r: 1, g: 1, b: 1, a: 0}
     - _ASCIIResolution: {r: 64, g: 32, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AmbientLight: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 0.57825273, b: 0, a: 1}
+    - _EdgeHighlightColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.672, g: 0.672, b: 1, a: 1}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _LowColor: {r: 0.26284003, g: 0.18557099, b: 0.711, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0.109, a: 1}
+    - _PixelGridOrigin: {r: 0, g: 0, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

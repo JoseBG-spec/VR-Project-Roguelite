@@ -30,7 +30,7 @@ public class Scoreboard : MonoBehaviour
 
     void endLevel(){
         playfab.SendLeaderboard(score);
-        graphRunner.RunAsync();
+        //graphRunner.RunAsync();
 
     }
 }
